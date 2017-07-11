@@ -1,0 +1,11 @@
+[
+{"time": "2017-01-28T08:59:18.000Z", "type": "invite_declined", "declined_by": "LtHawkeye.4831", "user": "roymylife.1458", "id": 40973},
+{"time": "2017-01-10T16:10:22.000Z", "type": "invite_declined", "declined_by": "LtHawkeye.4831", "user": "Aragorn Son of Arathorn.4015", "id": 35360},
+{"time": "2017-02-06T18:49:44.000Z", "type": "invite_declined", "user": "fyctwofivefive.8390", "id": 44927},
+{"time": "2017-01-02T01:52:25.000Z", "type": "invite_declined", "declined_by": "tribus.2815", "user": "tribus.2815", "id": 33856},
+{"time": "2017-04-05T08:29:30.000Z", "type": "invite_declined", "declined_by": "FazeDogeGetRekt.3984", "user": "FazeDogeGetRekt.3984", "id": 51082},
+{"time": "2017-02-05T23:29:05.000Z", "type": "invite_declined", "declined_by": "Doctor Bearington.3695", "user": "Doctor Bearington.3695", "id": 44559},
+{"time": "2016-12-21T06:41:04.000Z", "type": "invite_declined", "declined_by": "Twilight Contingency.4610", "user": "Twilight Contingency.4610", "id": 31293},
+{"time": "2016-12-24T23:17:02.000Z", "type": "invite_declined", "declined_by": "MrWhiteman.5376", "user": "MrWhiteman.5376", "id": 32203},
+{"time": "2017-01-28T08:59:17.000Z", "type": "invite_declined", "declined_by": "LtHawkeye.4831", "user": "ill.6492", "id": 40971}
+]

@@ -1,0 +1,1066 @@
+[
+  {
+    "item_id": 9285,
+    "count": 50,
+    "needed_by": [
+      {
+        "upgrade_id": 354,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 9576,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 398,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 12470,
+    "count": 11,
+    "needed_by": [
+      {
+        "upgrade_id": 440,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 12509,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 233,
+        "count": 100
+      },
+      {
+        "upgrade_id": 433,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 13007,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 256,
+        "count": 33
+      }
+    ]
+  },
+  {
+    "item_id": 19663,
+    "count": 230,
+    "needed_by": [
+      {
+        "upgrade_id": 156,
+        "count": 10
+      },
+      {
+        "upgrade_id": 424,
+        "count": 200
+      },
+      {
+        "upgrade_id": 440,
+        "count": 20
+      }
+    ]
+  },
+  {
+    "item_id": 19684,
+    "count": 3963,
+    "needed_by": [
+      {
+        "upgrade_id": 152,
+        "count": 300
+      },
+      {
+        "upgrade_id": 176,
+        "count": 100
+      },
+      {
+        "upgrade_id": 204,
+        "count": 500
+      },
+      {
+        "upgrade_id": 233,
+        "count": 100
+      },
+      {
+        "upgrade_id": 256,
+        "count": 250
+      },
+      {
+        "upgrade_id": 269,
+        "count": 300
+      },
+      {
+        "upgrade_id": 314,
+        "count": 300
+      },
+      {
+        "upgrade_id": 322,
+        "count": 100
+      },
+      {
+        "upgrade_id": 354,
+        "count": 100
+      },
+      {
+        "upgrade_id": 398,
+        "count": 1500
+      },
+      {
+        "upgrade_id": 423,
+        "count": 100
+      },
+      {
+        "upgrade_id": 424,
+        "count": 1000
+      },
+      {
+        "upgrade_id": 433,
+        "count": 100
+      },
+      {
+        "upgrade_id": 443,
+        "count": 450
+      },
+      {
+        "upgrade_id": 458,
+        "count": 100
+      },
+      {
+        "upgrade_id": 486,
+        "count": 500
+      },
+      {
+        "upgrade_id": 615,
+        "count": 100
+      },
+      {
+        "upgrade_id": 621,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 19685,
+    "count": 455,
+    "needed_by": [
+      {
+        "upgrade_id": 204,
+        "count": 400
+      },
+      {
+        "upgrade_id": 210,
+        "count": 200
+      },
+      {
+        "upgrade_id": 630,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 19709,
+    "count": 125,
+    "needed_by": [
+      {
+        "upgrade_id": 152,
+        "count": 300
+      },
+      {
+        "upgrade_id": 176,
+        "count": 100
+      },
+      {
+        "upgrade_id": 233,
+        "count": 100
+      },
+      {
+        "upgrade_id": 256,
+        "count": 250
+      },
+      {
+        "upgrade_id": 269,
+        "count": 300
+      },
+      {
+        "upgrade_id": 314,
+        "count": 300
+      },
+      {
+        "upgrade_id": 322,
+        "count": 100
+      },
+      {
+        "upgrade_id": 354,
+        "count": 100
+      },
+      {
+        "upgrade_id": 398,
+        "count": 1500
+      },
+      {
+        "upgrade_id": 423,
+        "count": 100
+      },
+      {
+        "upgrade_id": 424,
+        "count": 1000
+      },
+      {
+        "upgrade_id": 433,
+        "count": 100
+      },
+      {
+        "upgrade_id": 443,
+        "count": 450
+      },
+      {
+        "upgrade_id": 445,
+        "count": 100
+      },
+      {
+        "upgrade_id": 458,
+        "count": 100
+      },
+      {
+        "upgrade_id": 486,
+        "count": 500
+      },
+      {
+        "upgrade_id": 615,
+        "count": 100
+      },
+      {
+        "upgrade_id": 621,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 19710,
+    "count": 184,
+    "needed_by": [
+      {
+        "upgrade_id": 308,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "item_id": 19712,
+    "count": 100,
+    "needed_by": [
+      {
+        "upgrade_id": 630,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 19721,
+    "count": 185,
+    "needed_by": [
+      {
+        "upgrade_id": 176,
+        "count": 10
+      },
+      {
+        "upgrade_id": 233,
+        "count": 10
+      },
+      {
+        "upgrade_id": 236,
+        "count": 25
+      },
+      {
+        "upgrade_id": 322,
+        "count": 10
+      },
+      {
+        "upgrade_id": 354,
+        "count": 20
+      },
+      {
+        "upgrade_id": 433,
+        "count": 10
+      },
+      {
+        "upgrade_id": 458,
+        "count": 10
+      },
+      {
+        "upgrade_id": 615,
+        "count": 10
+      },
+      {
+        "upgrade_id": 621,
+        "count": 10
+      },
+      {
+        "upgrade_id": 630,
+        "count": 70
+      }
+    ]
+  },
+  {
+    "item_id": 19735,
+    "count": 136,
+    "needed_by": [
+      {
+        "upgrade_id": 176,
+        "count": 200
+      },
+      {
+        "upgrade_id": 233,
+        "count": 200
+      },
+      {
+        "upgrade_id": 236,
+        "count": 300
+      },
+      {
+        "upgrade_id": 322,
+        "count": 200
+      },
+      {
+        "upgrade_id": 354,
+        "count": 200
+      },
+      {
+        "upgrade_id": 423,
+        "count": 100
+      },
+      {
+        "upgrade_id": 424,
+        "count": 400
+      },
+      {
+        "upgrade_id": 433,
+        "count": 100
+      },
+      {
+        "upgrade_id": 458,
+        "count": 100
+      },
+      {
+        "upgrade_id": 615,
+        "count": 100
+      },
+      {
+        "upgrade_id": 621,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 19737,
+    "count": 7,
+    "needed_by": [
+      {
+        "upgrade_id": 210,
+        "count": 200
+      },
+      {
+        "upgrade_id": 375,
+        "count": 150
+      },
+      {
+        "upgrade_id": 424,
+        "count": 200
+      },
+      {
+        "upgrade_id": 630,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 19746,
+    "count": 360,
+    "needed_by": [
+      {
+        "upgrade_id": 210,
+        "count": 200
+      },
+      {
+        "upgrade_id": 424,
+        "count": 60
+      },
+      {
+        "upgrade_id": 630,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 19747,
+    "count": 200,
+    "needed_by": [
+      {
+        "upgrade_id": 236,
+        "count": 100
+      },
+      {
+        "upgrade_id": 424,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 19925,
+    "count": 80,
+    "needed_by": [
+      {
+        "upgrade_id": 424,
+        "count": 80
+      }
+    ]
+  },
+  {
+    "item_id": 19976,
+    "count": 42,
+    "needed_by": [
+      {
+        "upgrade_id": 422,
+        "count": 80
+      },
+      {
+        "upgrade_id": 630,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 20017,
+    "count": 5,
+    "needed_by": [
+      {
+        "upgrade_id": 630,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "item_id": 20799,
+    "count": 127,
+    "needed_by": [
+      {
+        "upgrade_id": 152,
+        "count": 20
+      },
+      {
+        "upgrade_id": 156,
+        "count": 10
+      },
+      {
+        "upgrade_id": 176,
+        "count": 20
+      },
+      {
+        "upgrade_id": 233,
+        "count": 20
+      },
+      {
+        "upgrade_id": 269,
+        "count": 20
+      },
+      {
+        "upgrade_id": 314,
+        "count": 20
+      },
+      {
+        "upgrade_id": 322,
+        "count": 20
+      },
+      {
+        "upgrade_id": 354,
+        "count": 20
+      },
+      {
+        "upgrade_id": 433,
+        "count": 20
+      },
+      {
+        "upgrade_id": 440,
+        "count": 20
+      },
+      {
+        "upgrade_id": 458,
+        "count": 20
+      },
+      {
+        "upgrade_id": 615,
+        "count": 20
+      },
+      {
+        "upgrade_id": 621,
+        "count": 20
+      }
+    ]
+  },
+  {
+    "item_id": 21157,
+    "count": 75,
+    "needed_by": [
+      {
+        "upgrade_id": 423,
+        "count": 75
+      }
+    ]
+  },
+  {
+    "item_id": 24276,
+    "count": 595,
+    "needed_by": [
+      {
+        "upgrade_id": 152,
+        "count": 500
+      },
+      {
+        "upgrade_id": 233,
+        "count": 50
+      },
+      {
+        "upgrade_id": 322,
+        "count": 200
+      },
+      {
+        "upgrade_id": 342,
+        "count": 500
+      },
+      {
+        "upgrade_id": 375,
+        "count": 300
+      },
+      {
+        "upgrade_id": 433,
+        "count": 100
+      },
+      {
+        "upgrade_id": 458,
+        "count": 100
+      },
+      {
+        "upgrade_id": 615,
+        "count": 100
+      },
+      {
+        "upgrade_id": 621,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 24277,
+    "count": 32,
+    "needed_by": [
+      {
+        "upgrade_id": 152,
+        "count": 30
+      },
+      {
+        "upgrade_id": 422,
+        "count": 50
+      },
+      {
+        "upgrade_id": 433,
+        "count": 10
+      },
+      {
+        "upgrade_id": 443,
+        "count": 50
+      },
+      {
+        "upgrade_id": 615,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 24282,
+    "count": 50,
+    "needed_by": [
+      {
+        "upgrade_id": 236,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 24288,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 615,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 24294,
+    "count": 600,
+    "needed_by": [
+      {
+        "upgrade_id": 156,
+        "count": 50
+      },
+      {
+        "upgrade_id": 236,
+        "count": 50
+      },
+      {
+        "upgrade_id": 342,
+        "count": 300
+      },
+      {
+        "upgrade_id": 422,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 24295,
+    "count": 10,
+    "needed_by": [
+      {
+        "upgrade_id": 422,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 24299,
+    "count": 500,
+    "needed_by": [
+      {
+        "upgrade_id": 269,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "item_id": 24310,
+    "count": 5,
+    "needed_by": [
+      {
+        "upgrade_id": 458,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 24315,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 314,
+        "count": 10
+      },
+      {
+        "upgrade_id": 398,
+        "count": 20
+      }
+    ]
+  },
+  {
+    "item_id": 24320,
+    "count": 7,
+    "needed_by": [
+      {
+        "upgrade_id": 176,
+        "count": 20
+      },
+      {
+        "upgrade_id": 269,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 24325,
+    "count": 6,
+    "needed_by": [
+      {
+        "upgrade_id": 422,
+        "count": 30
+      }
+    ]
+  },
+  {
+    "item_id": 24341,
+    "count": 100,
+    "needed_by": [
+      {
+        "upgrade_id": 440,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 24350,
+    "count": 100,
+    "needed_by": [
+      {
+        "upgrade_id": 423,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 24356,
+    "count": 50,
+    "needed_by": [
+      {
+        "upgrade_id": 236,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 24515,
+    "count": 16,
+    "needed_by": [
+      {
+        "upgrade_id": 308,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "item_id": 24522,
+    "count": 9,
+    "needed_by": [
+      {
+        "upgrade_id": 342,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "item_id": 43773,
+    "count": 500,
+    "needed_by": [
+      {
+        "upgrade_id": 204,
+        "count": 400
+      },
+      {
+        "upgrade_id": 440,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 43774,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 210,
+        "count": 6
+      }
+    ]
+  },
+  {
+    "item_id": 44642,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 375,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "item_id": 44941,
+    "count": 575,
+    "needed_by": [
+      {
+        "upgrade_id": 204,
+        "count": 500
+      },
+      {
+        "upgrade_id": 322,
+        "count": 75
+      }
+    ]
+  },
+  {
+    "item_id": 46730,
+    "count": 40,
+    "needed_by": [
+      {
+        "upgrade_id": 486,
+        "count": 40
+      }
+    ]
+  },
+  {
+    "item_id": 46732,
+    "count": 10,
+    "needed_by": [
+      {
+        "upgrade_id": 445,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 46739,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 204,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 46747,
+    "count": 522,
+    "needed_by": [
+      {
+        "upgrade_id": 204,
+        "count": 1000
+      },
+      {
+        "upgrade_id": 443,
+        "count": 350
+      }
+    ]
+  },
+  {
+    "item_id": 67826,
+    "count": 65,
+    "needed_by": [
+      {
+        "upgrade_id": 398,
+        "count": 150
+      },
+      {
+        "upgrade_id": 443,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 68110,
+    "count": 14,
+    "needed_by": [
+      {
+        "upgrade_id": 156,
+        "count": 20
+      },
+      {
+        "upgrade_id": 236,
+        "count": 50
+      },
+      {
+        "upgrade_id": 308,
+        "count": 50
+      },
+      {
+        "upgrade_id": 342,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 69434,
+    "count": 50,
+    "needed_by": [
+      {
+        "upgrade_id": 204,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 71473,
+    "count": 24,
+    "needed_by": [
+      {
+        "upgrade_id": 256,
+        "count": 20
+      },
+      {
+        "upgrade_id": 422,
+        "count": 20
+      }
+    ]
+  },
+  {
+    "item_id": 71580,
+    "count": 285,
+    "needed_by": [
+      {
+        "upgrade_id": 156,
+        "count": 15
+      },
+      {
+        "upgrade_id": 424,
+        "count": 300
+      },
+      {
+        "upgrade_id": 440,
+        "count": 20
+      }
+    ]
+  },
+  {
+    "item_id": 72224,
+    "count": 8,
+    "needed_by": [
+      {
+        "upgrade_id": 156,
+        "count": 10
+      },
+      {
+        "upgrade_id": 424,
+        "count": 200
+      },
+      {
+        "upgrade_id": 440,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 73034,
+    "count": 6,
+    "needed_by": [
+      {
+        "upgrade_id": 204,
+        "count": 400
+      },
+      {
+        "upgrade_id": 314,
+        "count": 300
+      },
+      {
+        "upgrade_id": 398,
+        "count": 100
+      },
+      {
+        "upgrade_id": 445,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 74042,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 443,
+        "count": 65
+      }
+    ]
+  },
+  {
+    "item_id": 74852,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 233,
+        "count": 50
+      },
+      {
+        "upgrade_id": 423,
+        "count": 30
+      },
+      {
+        "upgrade_id": 433,
+        "count": 30
+      },
+      {
+        "upgrade_id": 458,
+        "count": 30
+      },
+      {
+        "upgrade_id": 615,
+        "count": 30
+      },
+      {
+        "upgrade_id": 621,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 76876,
+    "count": 5,
+    "needed_by": [
+      {
+        "upgrade_id": 445,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 13008,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 486,
+        "count": 35
+      }
+    ]
+  },
+  {
+    "item_id": 19683,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 621,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 36507,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 236,
+        "count": 15
+      }
+    ]
+  },
+  {
+    "item_id": 66529,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 156,
+        "count": 80
+      }
+    ]
+  },
+  {
+    "item_id": 72579,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 176,
+        "count": 100
+      },
+      {
+        "upgrade_id": 322,
+        "count": 100
+      },
+      {
+        "upgrade_id": 354,
+        "count": 100
+      }
+    ]
+  }
+]

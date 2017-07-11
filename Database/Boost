@@ -1,0 +1,768 @@
+[
+{
+  "id": 123,
+  "name": "Objective Aura 7: Vitality",
+  "description": "Adds a +100 vitality bonus to the boons applied by the guild's aura around claimed objectives.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/B9359BB14BBB069F67593F9B52C4A07A58D0622B/1228574.png",
+  "type": "Boost",
+  "required_level": 33,
+  "experience": 35,
+  "prerequisites": [
+    476,
+    491
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Large Bone",
+      "item_id": 24341
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Mystic Coin",
+      "item_id": 19976
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Ancient Bone",
+      "item_id": 24358
+    },
+    {
+      "type": "Item",
+      "count": 35,
+      "name": "Glacial Lodestone",
+      "item_id": 24320
+    },
+    {
+      "type": "Currency",
+      "count": 5000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 159,
+  "name": "Guild Waypoint 15% Discount",
+  "description": "Reduce the cost of using waypoints by 15% for all guild members.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/C99516F0E05D7BD00407C99B3ACCEC334B6F0496/1228555.png",
+  "type": "Boost",
+  "required_level": 40,
+  "experience": 35,
+  "prerequisites": [
+    227
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 1000,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Tome of Knowledge",
+      "item_id": 43766
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Potion of PvP Reward",
+      "item_id": 68110
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Currency",
+      "count": 25000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 227,
+  "name": "Guild Waypoint 10% Discount",
+  "description": "Reduce the cost of using waypoints by 10% for all guild members.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/E81729D566F6000F13B32B6B31190D330BC00225/1228554.png",
+  "type": "Boost",
+  "required_level": 27,
+  "experience": 35,
+  "prerequisites": [
+    366,
+    424
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 800,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Tome of Knowledge",
+      "item_id": 43766
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Potion of PvP Reward",
+      "item_id": 68110
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Currency",
+      "count": 10000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 303,
+  "name": "Objective Aura 2: WvW Experience",
+  "description": "Adds a 10% WvW experience bonus to the boons applied by the guild's aura around claimed objectives.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/9B23BF3C1FC668B80308E9C10EB56F15713D9262/1228575.png",
+  "type": "Boost",
+  "required_level": 9,
+  "experience": 35,
+  "prerequisites": [
+    382
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Tome of Knowledge",
+      "item_id": 43766
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Mystic Coin",
+      "item_id": 19976
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Item",
+      "count": 400,
+      "name": "Large Claw",
+      "item_id": 24350
+    },
+    {
+      "type": "Item",
+      "count": 30,
+      "name": "Molten Lodestone",
+      "item_id": 24315
+    },
+    {
+      "type": "Currency",
+      "count": 1500,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 334,
+  "name": "Objective Aura 3: Movement Speed",
+  "description": "Adds a 25% movement speed bonus to the boons applied by the guild's aura around claimed objectives.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/0E4DB701AF94C42005C901A09A7BF6F66AD554F2/1228577.png",
+  "type": "Boost",
+  "required_level": 17,
+  "experience": 35,
+  "prerequisites": [
+    605,
+    303
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Seaweed",
+      "item_id": 12509
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Mystic Coin",
+      "item_id": 19976
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Item",
+      "count": 400,
+      "name": "Pile of Incandescent Dust",
+      "item_id": 24276
+    },
+    {
+      "type": "Item",
+      "count": 30,
+      "name": "Crystal Lodestone",
+      "item_id": 24330
+    },
+    {
+      "type": "Currency",
+      "count": 2000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 347,
+  "name": "Objective Aura 8: Magic Find",
+  "description": "Adds a 20% magic-find bonus to the boons applies by the guild's aura around claimed objectives.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/A37014BBC8DF62AC01A17DCB9B5E9C0BA32F6E64/1228576.png",
+  "type": "Boost",
+  "required_level": 37,
+  "experience": 35,
+  "prerequisites": [
+    123
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Large Scale",
+      "item_id": 24288
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Mystic Coin",
+      "item_id": 19976
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Leaf Fossil",
+      "item_id": 74328
+    },
+    {
+      "type": "Item",
+      "count": 25,
+      "name": "Evergreen Lodestone",
+      "item_id": 68942
+    },
+    {
+      "type": "Currency",
+      "count": 5000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 366,
+  "name": "Guild Waypoint 5% Discount",
+  "description": "Reduce the cost of using waypoints by 5% for all guild members.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/EA7E29E8A8FA5BE2D80F3917DA140DA8951F9701/1228556.png",
+  "type": "Boost",
+  "required_level": 13,
+  "experience": 35,
+  "prerequisites": [
+    359
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Tome of Knowledge",
+      "item_id": 43766
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Potion of PvP Reward",
+      "item_id": 68110
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Currency",
+      "count": 3000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 382,
+  "name": "Objective Aura 1: Supply Capacity",
+  "description": "The guild's claimed objectives now always emanate an aura that applies boons to allies in the vicinity while the guild holds the objective. Initially, the aura applies a +5 supply capacity.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/D0C90C0EB20F5D5BBAA7EDE4530D2DDC64722AFD/1228578.png",
+  "type": "Boost",
+  "required_level": 6,
+  "experience": 35,
+  "prerequisites": [
+    550
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 10,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Item",
+      "count": 77,
+      "name": "Essence of Luck",
+      "item_id": 45178
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Mystic Coin",
+      "item_id": 19976
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Item",
+      "count": 400,
+      "name": "Intricate Totem",
+      "item_id": 24299
+    },
+    {
+      "type": "Item",
+      "count": 5,
+      "name": "Charged Lodestone",
+      "item_id": 24305
+    },
+    {
+      "type": "Currency",
+      "count": 1000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 422,
+  "name": "Objective Aura 4: Power",
+  "description": "Adds a +100 power bonus to the boons applied by the guild's aura around claimed objectives.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/0D06F8A0BA3F054B5C9CABA4634954B72EDDB5A2/1228571.png",
+  "type": "Boost",
+  "required_level": 21,
+  "experience": 35,
+  "prerequisites": [
+    334,
+    130
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Vial of Potent Blood",
+      "item_id": 24294
+    },
+    {
+      "type": "Item",
+      "count": 80,
+      "name": "Mystic Coin",
+      "item_id": 19976
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Item",
+      "count": 10,
+      "name": "Vial of Powerful Blood",
+      "item_id": 24295
+    },
+    {
+      "type": "Item",
+      "count": 30,
+      "name": "Destroyer Lodestone",
+      "item_id": 24325
+    },
+    {
+      "type": "Currency",
+      "count": 5000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 446,
+  "name": "Guild Hall Swiftness +22%",
+  "description": "Permanently increase the run speed of guild members while in this guild hall by 22%.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/DE6903DEB7D42B03239E4A0646FD9644BAAC3E4A/1228552.png",
+  "type": "Boost",
+  "required_level": 21,
+  "experience": 35,
+  "prerequisites": [
+    514,
+    424
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 250,
+      "name": "Seaweed",
+      "item_id": 12509
+    },
+    {
+      "type": "Item",
+      "count": 2,
+      "name": "Superior Rune of the Traveler",
+      "item_id": 24691
+    },
+    {
+      "type": "Item",
+      "count": 2,
+      "name": "Superior Rune of Speed",
+      "item_id": 24720
+    },
+    {
+      "type": "Currency",
+      "count": 5000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 491,
+  "name": "Objective Aura 6: Toughness",
+  "description": "Adds a +100 toughness bonus to the boons applied by the guild's aura around claimed objectives.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/62EC253FB4A1E108C7B278BD3793FD2DCAD951A9/1228573.png",
+  "type": "Boost",
+  "required_level": 29,
+  "experience": 35,
+  "prerequisites": [
+    585
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Large Scale",
+      "item_id": 24288
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Mystic Coin",
+      "item_id": 19976
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Item",
+      "count": 10,
+      "name": "Armored Scale",
+      "item_id": 24289
+    },
+    {
+      "type": "Item",
+      "count": 25,
+      "name": "Onyx Lodestone",
+      "item_id": 24310
+    },
+    {
+      "type": "Currency",
+      "count": 5000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 514,
+  "name": "Guild Hall Swiftness +11%",
+  "description": "Permanently increase the run speed of guild members while in this guild hall by 11%.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/43C3EF0CAF292C970643A5FD71B99214342CBF33/1228551.png",
+  "type": "Boost",
+  "required_level": 9,
+  "experience": 35,
+  "prerequisites": [
+    359
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Seaweed",
+      "item_id": 12509
+    },
+    {
+      "type": "Item",
+      "count": 1,
+      "name": "Superior Rune of the Traveler",
+      "item_id": 24691
+    },
+    {
+      "type": "Item",
+      "count": 1,
+      "name": "Superior Rune of Speed",
+      "item_id": 24720
+    },
+    {
+      "type": "Currency",
+      "count": 2000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 558,
+  "name": "Guild Hall Swiftness +33%",
+  "description": "Permanently increase the run speed of guild members while in this guild hall by 33%.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/BD68D4DBFC5A39346DFE4F3EA3693EBADB962CCA/1228553.png",
+  "type": "Boost",
+  "required_level": 35,
+  "experience": 35,
+  "prerequisites": [
+    446
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 500,
+      "name": "Seaweed",
+      "item_id": 12509
+    },
+    {
+      "type": "Item",
+      "count": 3,
+      "name": "Superior Rune of the Traveler",
+      "item_id": 24691
+    },
+    {
+      "type": "Item",
+      "count": 3,
+      "name": "Superior Rune of Speed",
+      "item_id": 24720
+    },
+    {
+      "type": "Currency",
+      "count": 25000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 585,
+  "name": "Objective Aura 5: Precision",
+  "description": "Adds a +100 precision bonus to the boons applied by the guild's aura around claimed objectives.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/4C4E7E486B7DF411CDE9A7239AC2E9EB15D979FE/1228572.png",
+  "type": "Boost",
+  "required_level": 25,
+  "experience": 35,
+  "prerequisites": [
+    256,
+    422
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Badge of Tribute",
+      "item_id": 71473
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Large Fang",
+      "item_id": 24356
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Mystic Coin",
+      "item_id": 19976
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Item",
+      "count": 10,
+      "name": "Vicious Fang",
+      "item_id": 24357
+    },
+    {
+      "type": "Item",
+      "count": 25,
+      "name": "Corrupted Lodestone",
+      "item_id": 24340
+    },
+    {
+      "type": "Currency",
+      "count": 5000,
+      "name": "Aetherium"
+    }
+  ]
+}
+]

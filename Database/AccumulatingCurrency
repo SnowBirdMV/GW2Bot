@@ -1,0 +1,723 @@
+[
+{
+  "id": 120,
+  "name": "Aetherium Capacity 3",
+  "description": "Increase storage capacity for aetherium.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/2D9F0994FE144092961701CF017EDEB91BA0BD0E/1228522.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 15,
+  "experience": 35,
+  "prerequisites": [
+    310,
+    506
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 450,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 450,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 35,
+      "name": "Bloodstone Brick",
+      "item_id": 46730
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Major Rune of Holding",
+      "item_id": 13007
+    },
+    {
+      "type": "Currency",
+      "count": 3000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 169,
+  "name": "Mining Rate 1",
+  "description": "Produce aetherium at a faster rate.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/F852045890C6BF0810C572BFE5A40AC199230630/1228530.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 5,
+  "experience": 35,
+  "prerequisites": [
+    285
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 300,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 300,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Ley-Line Infused Tool",
+      "item_id": 74042
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Silverwastes Shovel",
+      "item_id": 67826
+    },
+    {
+      "type": "Item",
+      "count": 350,
+      "name": "Thermocatalytic Reagent",
+      "item_id": 46747
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Currency",
+      "count": 1500,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 285,
+  "name": "Mine Excavation 1",
+  "description": "Excavate the beginnings of a mine for your guild hall and begin mining aetherium out of the stone.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/463AFDC9B802D4A7FCB93A0503A74D29C84B7559/1228536.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 2,
+  "experience": 100,
+  "prerequisites": [
+    359
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 150,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Silverwastes Shovel",
+      "item_id": 67826
+    },
+    {
+      "type": "Item",
+      "count": 4,
+      "name": "18 Slot Thick Leather Pack",
+      "item_id": 9576
+    }
+  ]
+},
+{
+  "id": 287,
+  "name": "Mining Rate 6",
+  "description": "Produce aetherium at a faster rate.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/0D03A008E280ED7B2200982A36340BC066256645/1228535.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 37,
+  "experience": 35,
+  "prerequisites": [
+    324
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 800,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 800,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Ley-Line Infused Tool",
+      "item_id": 74042
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Silverwastes Shovel",
+      "item_id": 67826
+    },
+    {
+      "type": "Item",
+      "count": 500,
+      "name": "Thermocatalytic Reagent",
+      "item_id": 46747
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Currency",
+      "count": 20000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 301,
+  "name": "Aetherium Capacity 5",
+  "description": "Increase storage capacity for aetherium.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/3708FD46EB310207185A47C7F5431CC36BD72F0E/1228524.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 28,
+  "experience": 35,
+  "prerequisites": [
+    486
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 600,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 600,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 45,
+      "name": "Bloodstone Brick",
+      "item_id": 46730
+    },
+    {
+      "type": "Item",
+      "count": 12,
+      "name": "Superior Rune of Holding",
+      "item_id": 13009
+    },
+    {
+      "type": "Currency",
+      "count": 10000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 310,
+  "name": "Aetherium Capacity 2",
+  "description": "Increase storage capacity for aetherium.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/B411CE2EAD3BCE03E063D7EBEA43BED77B4FE4C4/1228521.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 8,
+  "experience": 35,
+  "prerequisites": [
+    331
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 200,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 400,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 400,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 30,
+      "name": "Bloodstone Brick",
+      "item_id": 46730
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Rune of Holding",
+      "item_id": 13006
+    },
+    {
+      "type": "Currency",
+      "count": 1500,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 324,
+  "name": "Mining Rate 5",
+  "description": "Produce aetherium at a faster rate.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/92C00FCEE16BC21650F4F76921160D2D1B6DE767/1228534.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 31,
+  "experience": 35,
+  "prerequisites": [
+    391,
+    398
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 600,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 600,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 150,
+      "name": "Ley-Line Infused Tool",
+      "item_id": 74042
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Silverwastes Shovel",
+      "item_id": 67826
+    },
+    {
+      "type": "Item",
+      "count": 500,
+      "name": "Thermocatalytic Reagent",
+      "item_id": 46747
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Currency",
+      "count": 15000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 331,
+  "name": "Aetherium Capacity 1",
+  "description": "Increase storage capacity for aetherium.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/7C41FF5131104170925A0320285F4A9839CEBE02/1228520.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 2,
+  "experience": 35,
+  "prerequisites": [
+    285
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 50,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 150,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 150,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Bloodstone Brick",
+      "item_id": 46730
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Minor Rune of Holding",
+      "item_id": 13010
+    },
+    {
+      "type": "Currency",
+      "count": 500,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 391,
+  "name": "Mining Rate 4",
+  "description": "Produce aetherium at a faster rate.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/BCA62903F33D460BB0CEAD513C0CF57EAA670D5E/1228533.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 25,
+  "experience": 35,
+  "prerequisites": [
+    443
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 500,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 500,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 100,
+      "name": "Ley-Line Infused Tool",
+      "item_id": 74042
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Silverwastes Shovel",
+      "item_id": 67826
+    },
+    {
+      "type": "Item",
+      "count": 500,
+      "name": "Thermocatalytic Reagent",
+      "item_id": 46747
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Currency",
+      "count": 10000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 443,
+  "name": "Mining Rate 3",
+  "description": "Produce aetherium at a faster rate.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/21F9BB80EEC0B00B415C781F5A06CF5AC3216C2B/1228532.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 18,
+  "experience": 35,
+  "prerequisites": [
+    636,
+    506
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 450,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 450,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 65,
+      "name": "Ley-Line Infused Tool",
+      "item_id": 74042
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Silverwastes Shovel",
+      "item_id": 67826
+    },
+    {
+      "type": "Item",
+      "count": 350,
+      "name": "Thermocatalytic Reagent",
+      "item_id": 46747
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Currency",
+      "count": 5000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 486,
+  "name": "Aetherium Capacity 4",
+  "description": "Increase storage capacity for aetherium.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/7E0F376041DF0644D5325442DE142958B9500CC5/1228523.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 21,
+  "experience": 35,
+  "prerequisites": [
+    120
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 500,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 500,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 40,
+      "name": "Bloodstone Brick",
+      "item_id": 46730
+    },
+    {
+      "type": "Item",
+      "count": 35,
+      "name": "Greater Rune of Holding",
+      "item_id": 13008
+    },
+    {
+      "type": "Currency",
+      "count": 5000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 546,
+  "name": "Aetherium Capacity 6",
+  "description": "Increase storage capacity for aetherium.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/F028712D3356231E04BD02480206E5651F05F657/1228525.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 34,
+  "experience": 35,
+  "prerequisites": [
+    301,
+    398
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 1000,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 1000,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Bloodstone Brick",
+      "item_id": 46730
+    },
+    {
+      "type": "Item",
+      "count": 15,
+      "name": "Superior Rune of Holding",
+      "item_id": 13009
+    },
+    {
+      "type": "Currency",
+      "count": 15000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 636,
+  "name": "Mining Rate 2",
+  "description": "Produce aetherium at a faster rate.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/A00E1A0D0BCBBC070519F2033B3027760BD13B7B/1228531.png",
+  "type": "AccumulatingCurrency",
+  "required_level": 12,
+  "experience": 35,
+  "prerequisites": [
+    169
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 400,
+      "name": "Elder Wood Plank",
+      "item_id": 19709
+    },
+    {
+      "type": "Item",
+      "count": 400,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 40,
+      "name": "Ley-Line Infused Tool",
+      "item_id": 74042
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Silverwastes Shovel",
+      "item_id": 67826
+    },
+    {
+      "type": "Item",
+      "count": 350,
+      "name": "Thermocatalytic Reagent",
+      "item_id": 46747
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Pile of Crystalline Dust",
+      "item_id": 24277
+    },
+    {
+      "type": "Currency",
+      "count": 3000,
+      "name": "Aetherium"
+    }
+  ]
+}
+]

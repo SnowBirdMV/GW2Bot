@@ -1,0 +1,26 @@
+[
+{
+  "id": 358,
+  "name": "Gilded Hollow",
+  "description": "Your guild has claimed the Gilded Hollow and is holding it against recapture by the Elder Dragons.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/0562B0F8E4084FEBFE1338530E4274D14F00412B/1228538.png",
+  "type": "GuildHall",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": []
+},
+{
+  "id": 611,
+  "name": "Lost Precipice",
+  "description": "Your guild has claimed the Lost Precipice and is holding it against recapture by the Elder Dragons.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/93F91F1721BFA70A62990D8091D00AA97674699E/1228539.png",
+  "type": "GuildHall",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": []
+}
+]

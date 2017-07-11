@@ -1,0 +1,14 @@
+[
+{
+  "id": 240,
+  "name": "Guild Initiative Registration",
+  "description": "Access the Guild Initiative's central office in Lion's Arch.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/F0C6027F5223A60BDF3CD4E47B7003F1999626E0/1228546.png",
+  "type": "Hub",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": []
+}
+]

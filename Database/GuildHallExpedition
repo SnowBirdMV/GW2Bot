@@ -1,0 +1,44 @@
+[
+{
+  "id": 410,
+  "name": "Expedition to the Lost Precipice",
+  "description": "Travel to the sunken shrine that marks the hidden entrance to the Lost Precipice, in the northwest part of the Verdant Brink. Meet Sarah McKenzy inside the precipice, and clear the Mordrem infestation there to claim this guild hall.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/CD0B149C306191B4920F6C7BBD2601421455F923/1228541.png",
+  "type": "GuildHallExpedition",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [
+    240
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 150,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 629,
+  "name": "Expedition to the Gilded Hollow",
+  "description": "Travel to the Gilded Hollow entrance tunnel, located beneath the golden city at the center of the Auric Basin. Meet Kogga inside the hollow and clear the Mordrem infestation there to claim this guild hall.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/1004BF2BA5A57DE291CBB05A38FC15F461909945/1228540.png",
+  "type": "GuildHallExpedition",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [
+    240
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 150,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+}
+]

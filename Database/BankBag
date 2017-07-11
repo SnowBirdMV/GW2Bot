@@ -1,0 +1,83 @@
+[
+{
+  "id": 55,
+  "name": "Guild Treasure Trove",
+  "description": "Gain access to a 100-slot guild vault.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/072502CEDCD72BF84E59280B46C5CFDEE6011FE1/1228510.png",
+  "type": "BankBag",
+  "required_level": 20,
+  "experience": 35,
+  "prerequisites": [
+    58,
+    350
+  ],
+  "bag_max_items": 100,
+  "bag_max_coins": 10000000,
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 1500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Currency",
+      "count": 3000,
+      "name": "Aetherium"
+    }
+  ]
+},
+{
+  "id": 58,
+  "name": "Guild Vault: Stash",
+  "description": "Grants access to a 50-slot guild vault and gold storage.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/CF55BF0B25704102003AD60658ACA65F1D01E905/1228545.png",
+  "type": "BankBag",
+  "required_level": 0,
+  "experience": 10,
+  "prerequisites": [
+    240
+  ],
+  "bag_max_items": 50,
+  "bag_max_coins": 10000000,
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 1000,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 78,
+  "name": "Deep Cave",
+  "description": "The Deep Cave will expand your treasure trove by another 100 slots.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/CD0420F0461A4A006957C2077C5CA949433E647E/1228498.png",
+  "type": "BankBag",
+  "required_level": 32,
+  "experience": 35,
+  "prerequisites": [
+    55,
+    602
+  ],
+  "bag_max_items": 100,
+  "bag_max_coins": 10000000,
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 2000,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Currency",
+      "count": 3000,
+      "name": "Aetherium"
+    }
+  ]
+}
+]

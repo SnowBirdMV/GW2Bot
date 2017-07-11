@@ -1,0 +1,76 @@
+[
+{
+  "id": 380,
+  "name": "Workshop Restoration 1",
+  "description": "Begin restoring your workshop.",
+  "build_time": 0,
+  "icon": "https://render.guildwars2.com/file/195C2C0D3FD1E174BEE35258F5239747ED237CCA/1228641.png",
+  "type": "Queue",
+  "required_level": 3,
+  "experience": 100,
+  "prerequisites": [
+    285
+  ],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 150,
+      "name": "Guild Favor",
+      "item_id": 70701
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Watchwork Sprocket",
+      "item_id": 44941
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Mithril Ingot",
+      "item_id": 19684
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Vial of Linseed Oil",
+      "item_id": 73034
+    },
+    {
+      "type": "Item",
+      "count": 20,
+      "name": "Bottle of Airship Oil",
+      "item_id": 69434
+    },
+    {
+      "type": "Item",
+      "count": 200,
+      "name": "Thermocatalytic Reagent",
+      "item_id": 46747
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Orichalcum Ingot",
+      "item_id": 19685
+    },
+    {
+      "type": "Item",
+      "count": 5,
+      "name": "Elonian Leather Square",
+      "item_id": 46739
+    },
+    {
+      "type": "Item",
+      "count": 50,
+      "name": "Quartz Crystal",
+      "item_id": 43773
+    },
+    {
+      "type": "Currency",
+      "count": 1500,
+      "name": "Aetherium"
+    }
+  ]
+}
+]

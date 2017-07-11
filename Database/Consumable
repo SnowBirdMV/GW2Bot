@@ -1,0 +1,382 @@
+[
+{
+  "id": 43,
+  "name": "Guild Catapult",
+  "description": "Create a catapult siege engine that costs less supply to set up than normal.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/B254F052D5670840390C477AD96BA3144C7AAC0D/1228602.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 44,
+  "name": "Guild Siege Suit",
+  "description": "Create a siege suit that cost less supply to set up than normal.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/03EDDC2362E12905FDBE999B9A66F49DA52D9379/1228617.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 2000,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 51,
+  "name": "Vault Transport",
+  "description": "Summons the guild vault to your location for easy access. Must have vault permissions.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/EB49E2DD921863CF0A3AE8EDCE7731AD01EA4F97/1202588.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 250,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 73,
+  "name": "+5% Experience Public Banner",
+  "description": "Spawns a guild banner that will give +5% experience to any ally that touches it for 30 minutes. Stacks with other exp buffs.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/935E250F12AE504777F2303DE55870463AA9A440/1202636.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 74,
+  "name": "Guild Banquet",
+  "description": "Spawns a banquet table, keg, and various other party items that players can eat and drink from. Lasts 1 hour.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/0E68EBF72001D55562174B0546035EE9704A20ED/1202623.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 84,
+  "name": "+5% Karma Banner",
+  "description": "Spawns a guild banner for 30 minutes that will give a +5% karma buff to any ally who touches it.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/3A3AA562576FF75BB5CEA335C900097899476F39/1202627.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 85,
+  "name": "Road Marker",
+  "description": "Spawns a guild road marker that will give 20 seconds of swiftness to any ally that touches it.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/DA44B16AE6FDC0E3C40F4BCADB260E430E02C210/1202633.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 86,
+  "name": "+10% Magic Find Banner",
+  "description": "Spawns a guild banner that will give +10% magic find to any ally that touches it for 30 minutes. Stacks with other loot buffs.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/ABE3B31A04EA643231CE008038293B7268EECBDA/1202631.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 87,
+  "name": "+10% Gathering Bonus Banner",
+  "description": "Spawns a guild banner that will give +10% gathering chance to any ally that touches it for 30 minutes. Stacks with other gathering buffs.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/76DAC0AF26249C7ABE0904C744FD0865F56FD6FF/1202593.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 93,
+  "name": "+15% Gathering and 10% Swiftness Banner",
+  "description": "Spawns a guild banner that will give +15% gathering chance and 10% movement speed boost to any ally that touches it for 30 minutes. Does not stack with other gathering or speed banners.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/BC1C20416658803E4B0B161D482AD5E355FB261A/1202595.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 600,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 94,
+  "name": "+10% Kill Gold and 15% Magic Find Banner",
+  "description": "Spawns a guild banner that will give +10% boost to gold from kills and +15% boost to magic find for any ally that touches it for 30 minutes. Does not stack with other gold or magic find banners.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/193AB6975D6C07D4C9624D70D1733462AF59C221/1202591.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 600,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 95,
+  "name": "+10% Karma and 10% Experience Banner",
+  "description": "Spawns a guild banner that will give +10% karma and +10% experience from kills boost to any ally that touches it for 30 minutes. Does not stack with other karma or experience banners.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/4BB2AD59FE41026D7852621760A9F19933FB03A0/1202629.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 600,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 96,
+  "name": "Guild Heroes Banner",
+  "description": "Spawns a guild banner that will give +10% karma, +15% magic find, +10% experience from kills, +10% gold from kills, +10% increased movement speed, and +15% gathering chance to any ally that touches it for 30 minutes. Does not stack with other banner boosts.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/4675FE3C6F0F056FFC5E6F0BCE5808149F0D2013/1202625.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 2000,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 100,
+  "name": "+5% Gold from Kills Banner",
+  "description": "Spawns a guild banner that will give +5% boost to gold earned from monster kills for any ally that touches it for 30 minutes. Does not stack with other gold banners.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/C24C03C80347A8981132A43E2DF35EBBD6A403EE/1202589.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 300,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 114,
+  "name": "Guild World Event",
+  "description": "Activate a world event for your guild. Use near Guild World Event markers.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/E730236C28B1D77934A2E86527D3C454D54806D0/1202634.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 3500,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 186,
+  "name": "Guild Ballista Blueprints",
+  "description": "Use to construct a guild ballista build site. It is more powerful than a standard ballista and displays your guild emblem. Range 3,000. Requires 30 supplies to complete.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/2A7ADF3AF4D027F505139C27EAE5601D90911201/1228595.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 1,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 327,
+  "name": "Guild Flame Ram Blueprint",
+  "description": "Use to construct a guild flame ram build site. This ram is more powerful than the standard flame ram and displays your guild emblem. Range 360. Requires 40 supply to complete.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/03C7F9AFFD325E5C54B801A3DC111CE56EC9D7E6/1228601.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 1,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 505,
+  "name": "Guild Arrow Cart Blueprints",
+  "description": "Use to construct a guild arrow cart build site. It is more powerful than a standard arrow cart and displays your guild emblem. Range 2,500. Requires 40 supply to complete.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/EC68089F9C7ACF10C90348B6662D75083300EC4D/1228593.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 1,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 576,
+  "name": "Guild Trebuchet Blueprints",
+  "description": "Use to construct a guild trebuchet build site. It is more powerful than a standard trebuchet and displays your guild emblem. Range 10,000. Requires 100 supplies to complete.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/4CDE210B9F143A6D92D8794A58C3C2FFFD5F80EB/1228613.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 1,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+},
+{
+  "id": 623,
+  "name": "Guild Shield Generator Blueprint",
+  "description": "Use to construct a guild shield generator build site. The generator's primary function is to project force fields in order to disrupt enemy movement and support allies. Range 3,750. Requires 40 supply to complete.",
+  "build_time": 30,
+  "icon": "https://render.guildwars2.com/file/AE01E2CC6B0E69457BB56334E5ECC30FC7FE21A5/1201510.png",
+  "type": "Consumable",
+  "required_level": 0,
+  "experience": 0,
+  "prerequisites": [],
+  "costs": [
+    {
+      "type": "Collectible",
+      "count": 1,
+      "name": "Guild Favor",
+      "item_id": 70701
+    }
+  ]
+}
+]
