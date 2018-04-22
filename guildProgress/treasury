@@ -1,11 +1,15 @@
 [
   {
     "item_id": 9285,
-    "count": 50,
+    "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 354,
+        "upgrade_id": 489,
         "count": 50
+      },
+      {
+        "upgrade_id": 613,
+        "count": 75
       }
     ]
   },
@@ -20,19 +24,13 @@
     ]
   },
   {
-    "item_id": 12470,
-    "count": 11,
+    "item_id": 12509,
+    "count": 42,
     "needed_by": [
       {
-        "upgrade_id": 440,
-        "count": 50
-      }
-    ]
-  },
-  {
-    "item_id": 12509,
-    "count": 0,
-    "needed_by": [
+        "upgrade_id": 157,
+        "count": 100
+      },
       {
         "upgrade_id": 233,
         "count": 100
@@ -40,22 +38,20 @@
       {
         "upgrade_id": 433,
         "count": 100
-      }
-    ]
-  },
-  {
-    "item_id": 13007,
-    "count": 0,
-    "needed_by": [
+      },
       {
-        "upgrade_id": 256,
-        "count": 33
+        "upgrade_id": 446,
+        "count": 250
+      },
+      {
+        "upgrade_id": 489,
+        "count": 10
       }
     ]
   },
   {
     "item_id": 19663,
-    "count": 230,
+    "count": 160,
     "needed_by": [
       {
         "upgrade_id": 156,
@@ -64,19 +60,37 @@
       {
         "upgrade_id": 424,
         "count": 200
-      },
+      }
+    ]
+  },
+  {
+    "item_id": 19682,
+    "count": 0,
+    "needed_by": [
       {
-        "upgrade_id": 440,
-        "count": 20
+        "upgrade_id": 494,
+        "count": 50
       }
     ]
   },
   {
     "item_id": 19684,
-    "count": 3963,
+    "count": 3970,
     "needed_by": [
       {
+        "upgrade_id": 151,
+        "count": 100
+      },
+      {
         "upgrade_id": 152,
+        "count": 300
+      },
+      {
+        "upgrade_id": 157,
+        "count": 50
+      },
+      {
+        "upgrade_id": 170,
         "count": 300
       },
       {
@@ -84,20 +98,16 @@
         "count": 100
       },
       {
-        "upgrade_id": 204,
-        "count": 500
-      },
-      {
         "upgrade_id": 233,
         "count": 100
       },
       {
-        "upgrade_id": 256,
-        "count": 250
+        "upgrade_id": 292,
+        "count": 100
       },
       {
-        "upgrade_id": 269,
-        "count": 300
+        "upgrade_id": 301,
+        "count": 600
       },
       {
         "upgrade_id": 314,
@@ -108,15 +118,15 @@
         "count": 100
       },
       {
-        "upgrade_id": 354,
-        "count": 100
+        "upgrade_id": 351,
+        "count": 300
       },
       {
         "upgrade_id": 398,
         "count": 1500
       },
       {
-        "upgrade_id": 423,
+        "upgrade_id": 402,
         "count": 100
       },
       {
@@ -128,6 +138,10 @@
         "count": 100
       },
       {
+        "upgrade_id": 442,
+        "count": 50
+      },
+      {
         "upgrade_id": 443,
         "count": 450
       },
@@ -136,8 +150,32 @@
         "count": 100
       },
       {
-        "upgrade_id": 486,
-        "count": 500
+        "upgrade_id": 476,
+        "count": 200
+      },
+      {
+        "upgrade_id": 489,
+        "count": 100
+      },
+      {
+        "upgrade_id": 494,
+        "count": 50
+      },
+      {
+        "upgrade_id": 522,
+        "count": 100
+      },
+      {
+        "upgrade_id": 572,
+        "count": 100
+      },
+      {
+        "upgrade_id": 608,
+        "count": 100
+      },
+      {
+        "upgrade_id": 613,
+        "count": 100
       },
       {
         "upgrade_id": 615,
@@ -151,14 +189,14 @@
   },
   {
     "item_id": 19685,
-    "count": 455,
+    "count": 23,
     "needed_by": [
       {
-        "upgrade_id": 204,
-        "count": 400
+        "upgrade_id": 167,
+        "count": 150
       },
       {
-        "upgrade_id": 210,
+        "upgrade_id": 536,
         "count": 200
       },
       {
@@ -168,11 +206,33 @@
     ]
   },
   {
-    "item_id": 19709,
-    "count": 125,
+    "item_id": 19700,
+    "count": 50,
     "needed_by": [
       {
+        "upgrade_id": 462,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 19709,
+    "count": 155,
+    "needed_by": [
+      {
+        "upgrade_id": 151,
+        "count": 100
+      },
+      {
         "upgrade_id": 152,
+        "count": 300
+      },
+      {
+        "upgrade_id": 157,
+        "count": 100
+      },
+      {
+        "upgrade_id": 170,
         "count": 300
       },
       {
@@ -180,16 +240,20 @@
         "count": 100
       },
       {
+        "upgrade_id": 213,
+        "count": 2000
+      },
+      {
         "upgrade_id": 233,
         "count": 100
       },
       {
-        "upgrade_id": 256,
-        "count": 250
+        "upgrade_id": 292,
+        "count": 100
       },
       {
-        "upgrade_id": 269,
-        "count": 300
+        "upgrade_id": 301,
+        "count": 600
       },
       {
         "upgrade_id": 314,
@@ -200,15 +264,15 @@
         "count": 100
       },
       {
-        "upgrade_id": 354,
-        "count": 100
+        "upgrade_id": 351,
+        "count": 300
       },
       {
         "upgrade_id": 398,
         "count": 1500
       },
       {
-        "upgrade_id": 423,
+        "upgrade_id": 402,
         "count": 100
       },
       {
@@ -220,20 +284,44 @@
         "count": 100
       },
       {
-        "upgrade_id": 443,
-        "count": 450
+        "upgrade_id": 442,
+        "count": 100
       },
       {
-        "upgrade_id": 445,
-        "count": 100
+        "upgrade_id": 443,
+        "count": 450
       },
       {
         "upgrade_id": 458,
         "count": 100
       },
       {
-        "upgrade_id": 486,
-        "count": 500
+        "upgrade_id": 476,
+        "count": 200
+      },
+      {
+        "upgrade_id": 489,
+        "count": 100
+      },
+      {
+        "upgrade_id": 494,
+        "count": 100
+      },
+      {
+        "upgrade_id": 522,
+        "count": 100
+      },
+      {
+        "upgrade_id": 572,
+        "count": 100
+      },
+      {
+        "upgrade_id": 608,
+        "count": 100
+      },
+      {
+        "upgrade_id": 613,
+        "count": 100
       },
       {
         "upgrade_id": 615,
@@ -247,7 +335,7 @@
   },
   {
     "item_id": 19710,
-    "count": 184,
+    "count": 214,
     "needed_by": [
       {
         "upgrade_id": 308,
@@ -256,9 +344,27 @@
     ]
   },
   {
-    "item_id": 19712,
-    "count": 100,
+    "item_id": 19711,
+    "count": 0,
     "needed_by": [
+      {
+        "upgrade_id": 552,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "item_id": 19712,
+    "count": 27,
+    "needed_by": [
+      {
+        "upgrade_id": 167,
+        "count": 150
+      },
+      {
+        "upgrade_id": 536,
+        "count": 200
+      },
       {
         "upgrade_id": 630,
         "count": 100
@@ -267,35 +373,87 @@
   },
   {
     "item_id": 19721,
-    "count": 185,
+    "count": 4,
     "needed_by": [
+      {
+        "upgrade_id": 151,
+        "count": 10
+      },
+      {
+        "upgrade_id": 157,
+        "count": 10
+      },
+      {
+        "upgrade_id": 167,
+        "count": 100
+      },
       {
         "upgrade_id": 176,
         "count": 10
+      },
+      {
+        "upgrade_id": 208,
+        "count": 125
+      },
+      {
+        "upgrade_id": 232,
+        "count": 75
       },
       {
         "upgrade_id": 233,
         "count": 10
       },
       {
-        "upgrade_id": 236,
-        "count": 25
+        "upgrade_id": 292,
+        "count": 10
       },
       {
         "upgrade_id": 322,
         "count": 10
       },
       {
-        "upgrade_id": 354,
-        "count": 20
+        "upgrade_id": 402,
+        "count": 15
       },
       {
         "upgrade_id": 433,
         "count": 10
       },
       {
+        "upgrade_id": 442,
+        "count": 10
+      },
+      {
         "upgrade_id": 458,
         "count": 10
+      },
+      {
+        "upgrade_id": 462,
+        "count": 75
+      },
+      {
+        "upgrade_id": 489,
+        "count": 10
+      },
+      {
+        "upgrade_id": 494,
+        "count": 10
+      },
+      {
+        "upgrade_id": 522,
+        "count": 10
+      },
+      {
+        "upgrade_id": 552,
+        "count": 25
+      },
+      {
+        "upgrade_id": 608,
+        "count": 25
+      },
+      {
+        "upgrade_id": 613,
+        "count": 5
       },
       {
         "upgrade_id": 615,
@@ -308,13 +466,29 @@
       {
         "upgrade_id": 630,
         "count": 70
+      },
+      {
+        "upgrade_id": 768,
+        "count": 15
+      },
+      {
+        "upgrade_id": 773,
+        "count": 25
       }
     ]
   },
   {
     "item_id": 19735,
-    "count": 136,
+    "count": 69,
     "needed_by": [
+      {
+        "upgrade_id": 151,
+        "count": 100
+      },
+      {
+        "upgrade_id": 157,
+        "count": 100
+      },
       {
         "upgrade_id": 176,
         "count": 200
@@ -324,20 +498,20 @@
         "count": 200
       },
       {
-        "upgrade_id": 236,
-        "count": 300
+        "upgrade_id": 292,
+        "count": 200
       },
       {
         "upgrade_id": 322,
         "count": 200
       },
       {
-        "upgrade_id": 354,
+        "upgrade_id": 402,
         "count": 200
       },
       {
-        "upgrade_id": 423,
-        "count": 100
+        "upgrade_id": 416,
+        "count": 500
       },
       {
         "upgrade_id": 424,
@@ -348,8 +522,36 @@
         "count": 100
       },
       {
+        "upgrade_id": 442,
+        "count": 100
+      },
+      {
         "upgrade_id": 458,
         "count": 100
+      },
+      {
+        "upgrade_id": 489,
+        "count": 100
+      },
+      {
+        "upgrade_id": 494,
+        "count": 100
+      },
+      {
+        "upgrade_id": 522,
+        "count": 100
+      },
+      {
+        "upgrade_id": 572,
+        "count": 100
+      },
+      {
+        "upgrade_id": 608,
+        "count": 100
+      },
+      {
+        "upgrade_id": 613,
+        "count": 200
       },
       {
         "upgrade_id": 615,
@@ -358,16 +560,20 @@
       {
         "upgrade_id": 621,
         "count": 200
+      },
+      {
+        "upgrade_id": 773,
+        "count": 500
       }
     ]
   },
   {
     "item_id": 19737,
-    "count": 7,
+    "count": 37,
     "needed_by": [
       {
-        "upgrade_id": 210,
-        "count": 200
+        "upgrade_id": 167,
+        "count": 150
       },
       {
         "upgrade_id": 375,
@@ -384,12 +590,22 @@
     ]
   },
   {
-    "item_id": 19746,
-    "count": 360,
+    "item_id": 19744,
+    "count": 150,
     "needed_by": [
       {
-        "upgrade_id": 210,
-        "count": 200
+        "upgrade_id": 768,
+        "count": 250
+      }
+    ]
+  },
+  {
+    "item_id": 19746,
+    "count": 160,
+    "needed_by": [
+      {
+        "upgrade_id": 167,
+        "count": 150
       },
       {
         "upgrade_id": 424,
@@ -403,12 +619,8 @@
   },
   {
     "item_id": 19747,
-    "count": 200,
+    "count": 100,
     "needed_by": [
-      {
-        "upgrade_id": 236,
-        "count": 100
-      },
       {
         "upgrade_id": 424,
         "count": 100
@@ -422,16 +634,24 @@
       {
         "upgrade_id": 424,
         "count": 80
+      },
+      {
+        "upgrade_id": 522,
+        "count": 20
       }
     ]
   },
   {
     "item_id": 19976,
-    "count": 42,
+    "count": 40,
     "needed_by": [
       {
-        "upgrade_id": 422,
-        "count": 80
+        "upgrade_id": 167,
+        "count": 50
+      },
+      {
+        "upgrade_id": 585,
+        "count": 100
       },
       {
         "upgrade_id": 630,
@@ -444,6 +664,10 @@
     "count": 5,
     "needed_by": [
       {
+        "upgrade_id": 167,
+        "count": 5
+      },
+      {
         "upgrade_id": 630,
         "count": 5
       }
@@ -451,8 +675,12 @@
   },
   {
     "item_id": 20799,
-    "count": 127,
+    "count": 271,
     "needed_by": [
+      {
+        "upgrade_id": 151,
+        "count": 20
+      },
       {
         "upgrade_id": 152,
         "count": 20
@@ -460,6 +688,14 @@
       {
         "upgrade_id": 156,
         "count": 10
+      },
+      {
+        "upgrade_id": 157,
+        "count": 20
+      },
+      {
+        "upgrade_id": 170,
+        "count": 20
       },
       {
         "upgrade_id": 176,
@@ -470,7 +706,7 @@
         "count": 20
       },
       {
-        "upgrade_id": 269,
+        "upgrade_id": 292,
         "count": 20
       },
       {
@@ -482,7 +718,11 @@
         "count": 20
       },
       {
-        "upgrade_id": 354,
+        "upgrade_id": 351,
+        "count": 20
+      },
+      {
+        "upgrade_id": 402,
         "count": 20
       },
       {
@@ -490,11 +730,31 @@
         "count": 20
       },
       {
-        "upgrade_id": 440,
+        "upgrade_id": 442,
         "count": 20
       },
       {
         "upgrade_id": 458,
+        "count": 20
+      },
+      {
+        "upgrade_id": 489,
+        "count": 20
+      },
+      {
+        "upgrade_id": 494,
+        "count": 20
+      },
+      {
+        "upgrade_id": 522,
+        "count": 20
+      },
+      {
+        "upgrade_id": 608,
+        "count": 20
+      },
+      {
+        "upgrade_id": 613,
         "count": 20
       },
       {
@@ -508,22 +768,30 @@
     ]
   },
   {
-    "item_id": 21157,
-    "count": 75,
+    "item_id": 21161,
+    "count": 28,
     "needed_by": [
       {
-        "upgrade_id": 423,
+        "upgrade_id": 572,
         "count": 75
       }
     ]
   },
   {
     "item_id": 24276,
-    "count": 595,
+    "count": 24,
     "needed_by": [
+      {
+        "upgrade_id": 151,
+        "count": 100
+      },
       {
         "upgrade_id": 152,
         "count": 500
+      },
+      {
+        "upgrade_id": 232,
+        "count": 200
       },
       {
         "upgrade_id": 233,
@@ -542,11 +810,23 @@
         "count": 300
       },
       {
+        "upgrade_id": 402,
+        "count": 100
+      },
+      {
         "upgrade_id": 433,
         "count": 100
       },
       {
         "upgrade_id": 458,
+        "count": 100
+      },
+      {
+        "upgrade_id": 552,
+        "count": 200
+      },
+      {
+        "upgrade_id": 608,
         "count": 100
       },
       {
@@ -556,20 +836,28 @@
       {
         "upgrade_id": 621,
         "count": 50
+      },
+      {
+        "upgrade_id": 768,
+        "count": 200
+      },
+      {
+        "upgrade_id": 773,
+        "count": 200
       }
     ]
   },
   {
     "item_id": 24277,
-    "count": 32,
+    "count": 0,
     "needed_by": [
+      {
+        "upgrade_id": 151,
+        "count": 50
+      },
       {
         "upgrade_id": 152,
         "count": 30
-      },
-      {
-        "upgrade_id": 422,
-        "count": 50
       },
       {
         "upgrade_id": 433,
@@ -580,25 +868,35 @@
         "count": 50
       },
       {
+        "upgrade_id": 489,
+        "count": 5
+      },
+      {
+        "upgrade_id": 585,
+        "count": 50
+      },
+      {
+        "upgrade_id": 608,
+        "count": 5
+      },
+      {
         "upgrade_id": 615,
         "count": 10
       }
     ]
   },
   {
-    "item_id": 24282,
-    "count": 50,
+    "item_id": 24288,
+    "count": 450,
     "needed_by": [
       {
-        "upgrade_id": 236,
-        "count": 50
-      }
-    ]
-  },
-  {
-    "item_id": 24288,
-    "count": 0,
-    "needed_by": [
+        "upgrade_id": 151,
+        "count": 100
+      },
+      {
+        "upgrade_id": 292,
+        "count": 250
+      },
       {
         "upgrade_id": 615,
         "count": 100
@@ -607,50 +905,48 @@
   },
   {
     "item_id": 24294,
-    "count": 600,
+    "count": 719,
     "needed_by": [
+      {
+        "upgrade_id": 113,
+        "count": 100
+      },
       {
         "upgrade_id": 156,
         "count": 50
       },
       {
-        "upgrade_id": 236,
-        "count": 50
+        "upgrade_id": 170,
+        "count": 500
       },
       {
         "upgrade_id": 342,
         "count": 300
-      },
-      {
-        "upgrade_id": 422,
-        "count": 200
       }
     ]
   },
   {
     "item_id": 24295,
-    "count": 10,
+    "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 422,
+        "upgrade_id": 113,
+        "count": 30
+      },
+      {
+        "upgrade_id": 170,
         "count": 10
       }
     ]
   },
   {
-    "item_id": 24299,
-    "count": 500,
+    "item_id": 24310,
+    "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 269,
-        "count": 500
-      }
-    ]
-  },
-  {
-    "item_id": 24310,
-    "count": 5,
-    "needed_by": [
+        "upgrade_id": 442,
+        "count": 10
+      },
       {
         "upgrade_id": 458,
         "count": 10
@@ -668,60 +964,104 @@
       {
         "upgrade_id": 398,
         "count": 20
+      },
+      {
+        "upgrade_id": 572,
+        "count": 5
+      },
+      {
+        "upgrade_id": 608,
+        "count": 5
       }
     ]
   },
   {
     "item_id": 24320,
-    "count": 7,
+    "count": 0,
     "needed_by": [
       {
         "upgrade_id": 176,
         "count": 20
-      },
-      {
-        "upgrade_id": 269,
-        "count": 10
       }
     ]
   },
   {
-    "item_id": 24325,
-    "count": 6,
+    "item_id": 24340,
+    "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 422,
-        "count": 30
+        "upgrade_id": 585,
+        "count": 25
       }
     ]
   },
   {
     "item_id": 24341,
-    "count": 100,
+    "count": 390,
     "needed_by": [
       {
-        "upgrade_id": 440,
-        "count": 100
-      }
-    ]
-  },
-  {
-    "item_id": 24350,
-    "count": 100,
-    "needed_by": [
-      {
-        "upgrade_id": 423,
-        "count": 100
+        "upgrade_id": 351,
+        "count": 500
       }
     ]
   },
   {
     "item_id": 24356,
-    "count": 50,
+    "count": 200,
     "needed_by": [
       {
-        "upgrade_id": 236,
-        "count": 50
+        "upgrade_id": 585,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 24357,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 585,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 24358,
+    "count": 1,
+    "needed_by": [
+      {
+        "upgrade_id": 351,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 24473,
+    "count": 3,
+    "needed_by": [
+      {
+        "upgrade_id": 462,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 24509,
+    "count": 1,
+    "needed_by": [
+      {
+        "upgrade_id": 462,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 24511,
+    "count": 2,
+    "needed_by": [
+      {
+        "upgrade_id": 462,
+        "count": 200
       }
     ]
   },
@@ -736,6 +1076,16 @@
     ]
   },
   {
+    "item_id": 24521,
+    "count": 1,
+    "needed_by": [
+      {
+        "upgrade_id": 462,
+        "count": 200
+      }
+    ]
+  },
+  {
     "item_id": 24522,
     "count": 9,
     "needed_by": [
@@ -746,32 +1096,66 @@
     ]
   },
   {
-    "item_id": 43773,
-    "count": 500,
+    "item_id": 24691,
+    "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 204,
-        "count": 400
-      },
+        "upgrade_id": 446,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "item_id": 24720,
+    "count": 0,
+    "needed_by": [
       {
-        "upgrade_id": 440,
+        "upgrade_id": 446,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "item_id": 38128,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 238,
         "count": 100
       }
     ]
   },
   {
-    "item_id": 43774,
+    "item_id": 43766,
     "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 210,
-        "count": 6
+        "upgrade_id": 113,
+        "count": 100
+      },
+      {
+        "upgrade_id": 227,
+        "count": 100
+      },
+      {
+        "upgrade_id": 522,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 43775,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 536,
+        "count": 10
       }
     ]
   },
   {
     "item_id": 44642,
-    "count": 0,
+    "count": 5,
     "needed_by": [
       {
         "upgrade_id": 375,
@@ -781,25 +1165,35 @@
   },
   {
     "item_id": 44941,
-    "count": 575,
+    "count": 25,
     "needed_by": [
       {
-        "upgrade_id": 204,
-        "count": 500
+        "upgrade_id": 322,
+        "count": 75
       },
       {
-        "upgrade_id": 322,
+        "upgrade_id": 402,
         "count": 75
       }
     ]
   },
   {
-    "item_id": 46730,
-    "count": 40,
+    "item_id": 45178,
+    "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 486,
-        "count": 40
+        "upgrade_id": 494,
+        "count": 77
+      }
+    ]
+  },
+  {
+    "item_id": 46730,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 301,
+        "count": 45
       }
     ]
   },
@@ -808,29 +1202,41 @@
     "count": 10,
     "needed_by": [
       {
-        "upgrade_id": 445,
+        "upgrade_id": 213,
         "count": 10
       }
     ]
   },
   {
-    "item_id": 46739,
-    "count": 0,
+    "item_id": 46734,
+    "count": 16,
     "needed_by": [
       {
-        "upgrade_id": 204,
-        "count": 50
+        "upgrade_id": 232,
+        "count": 5
+      },
+      {
+        "upgrade_id": 462,
+        "count": 5
+      },
+      {
+        "upgrade_id": 552,
+        "count": 5
+      },
+      {
+        "upgrade_id": 768,
+        "count": 5
+      },
+      {
+        "upgrade_id": 773,
+        "count": 5
       }
     ]
   },
   {
     "item_id": 46747,
-    "count": 522,
+    "count": 22,
     "needed_by": [
-      {
-        "upgrade_id": 204,
-        "count": 1000
-      },
       {
         "upgrade_id": 443,
         "count": 350
@@ -839,7 +1245,7 @@
   },
   {
     "item_id": 67826,
-    "count": 65,
+    "count": 200,
     "needed_by": [
       {
         "upgrade_id": 398,
@@ -853,15 +1259,15 @@
   },
   {
     "item_id": 68110,
-    "count": 14,
+    "count": 122,
     "needed_by": [
       {
         "upgrade_id": 156,
         "count": 20
       },
       {
-        "upgrade_id": 236,
-        "count": 50
+        "upgrade_id": 227,
+        "count": 100
       },
       {
         "upgrade_id": 308,
@@ -870,36 +1276,90 @@
       {
         "upgrade_id": 342,
         "count": 50
+      },
+      {
+        "upgrade_id": 416,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "item_id": 69392,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 208,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 69432,
+    "count": 100,
+    "needed_by": [
+      {
+        "upgrade_id": 208,
+        "count": 100
       }
     ]
   },
   {
     "item_id": 69434,
-    "count": 50,
+    "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 204,
+        "upgrade_id": 208,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 70714,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 292,
+        "count": 50
+      },
+      {
+        "upgrade_id": 489,
+        "count": 50
+      },
+      {
+        "upgrade_id": 522,
+        "count": 50
+      },
+      {
+        "upgrade_id": 572,
+        "count": 50
+      },
+      {
+        "upgrade_id": 613,
         "count": 50
       }
     ]
   },
   {
     "item_id": 71473,
-    "count": 24,
+    "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 256,
+        "upgrade_id": 227,
+        "count": 100
+      },
+      {
+        "upgrade_id": 476,
         "count": 20
       },
       {
-        "upgrade_id": 422,
+        "upgrade_id": 585,
         "count": 20
       }
     ]
   },
   {
     "item_id": 71580,
-    "count": 285,
+    "count": 315,
     "needed_by": [
       {
         "upgrade_id": 156,
@@ -908,16 +1368,30 @@
       {
         "upgrade_id": 424,
         "count": 300
+      }
+    ]
+  },
+  {
+    "item_id": 71702,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 151,
+        "count": 20
       },
       {
-        "upgrade_id": 440,
+        "upgrade_id": 442,
+        "count": 20
+      },
+      {
+        "upgrade_id": 494,
         "count": 20
       }
     ]
   },
   {
     "item_id": 72224,
-    "count": 8,
+    "count": 12,
     "needed_by": [
       {
         "upgrade_id": 156,
@@ -926,20 +1400,30 @@
       {
         "upgrade_id": 424,
         "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 72579,
+    "count": 139,
+    "needed_by": [
+      {
+        "upgrade_id": 176,
+        "count": 100
       },
       {
-        "upgrade_id": 440,
-        "count": 10
+        "upgrade_id": 322,
+        "count": 100
       }
     ]
   },
   {
     "item_id": 73034,
-    "count": 6,
+    "count": 8,
     "needed_by": [
       {
-        "upgrade_id": 204,
-        "count": 400
+        "upgrade_id": 213,
+        "count": 300
       },
       {
         "upgrade_id": 314,
@@ -948,10 +1432,6 @@
       {
         "upgrade_id": 398,
         "count": 100
-      },
-      {
-        "upgrade_id": 445,
-        "count": 200
       }
     ]
   },
@@ -974,8 +1454,8 @@
         "count": 50
       },
       {
-        "upgrade_id": 423,
-        "count": 30
+        "upgrade_id": 402,
+        "count": 50
       },
       {
         "upgrade_id": 433,
@@ -997,21 +1477,75 @@
   },
   {
     "item_id": 76876,
-    "count": 5,
+    "count": 102,
     "needed_by": [
       {
-        "upgrade_id": 445,
+        "upgrade_id": 213,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "item_id": 77256,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 536,
         "count": 200
       }
     ]
   },
   {
-    "item_id": 13008,
+    "item_id": 9569,
     "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 486,
-        "count": 35
+        "upgrade_id": 416,
+        "count": 7
+      }
+    ]
+  },
+  {
+    "item_id": 12128,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 157,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "item_id": 12330,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 232,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "item_id": 13009,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 301,
+        "count": 12
+      },
+      {
+        "upgrade_id": 476,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "item_id": 19630,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 238,
+        "count": 1
       }
     ]
   },
@@ -1026,12 +1560,62 @@
     ]
   },
   {
-    "item_id": 36507,
+    "item_id": 24474,
     "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 236,
-        "count": 15
+        "upgrade_id": 462,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 24475,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 462,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 24519,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 462,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "item_id": 41824,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 840,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "item_id": 46500,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 840,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "item_id": 46504,
+    "count": 0,
+    "needed_by": [
+      {
+        "upgrade_id": 840,
+        "count": 1
       }
     ]
   },
@@ -1046,20 +1630,20 @@
     ]
   },
   {
-    "item_id": 72579,
+    "item_id": 71136,
     "count": 0,
     "needed_by": [
       {
-        "upgrade_id": 176,
-        "count": 100
+        "upgrade_id": 113,
+        "count": 20
       },
       {
-        "upgrade_id": 322,
-        "count": 100
+        "upgrade_id": 157,
+        "count": 20
       },
       {
-        "upgrade_id": 354,
-        "count": 100
+        "upgrade_id": 608,
+        "count": 20
       }
     ]
   }

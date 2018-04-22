@@ -145,9 +145,7 @@
     "type": "BankBag",
     "required_level": 0,
     "experience": 10,
-    "prerequisites": [
-      240
-    ],
+    "prerequisites": [],
     "bag_max_items": 50,
     "bag_max_coins": 10000000,
     "costs": [
@@ -695,9 +693,7 @@
     "type": "Unlock",
     "required_level": 0,
     "experience": 10,
-    "prerequisites": [
-      240
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -2957,9 +2953,7 @@
     "type": "Unlock",
     "required_level": 0,
     "experience": 10,
-    "prerequisites": [
-      240
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -4651,6 +4645,546 @@
     "description": "",
     "build_time": 30,
     "icon": "https://render.guildwars2.com/file/5212D7422B5C22CBD9F5A5290E9BDEA66FB609D8/1225930.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 295,
+    "name": "Lit Wagon",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/04563DD6B515BB18671B3496A542CE5360745673/1227557.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 297,
+    "name": "Tall Lattice",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/BA3FBD0F6A7A13917F9C626EFC9E1955555E3F19/1224822.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 298,
+    "name": "Airship Defense",
+    "description": "Activate this Tactic to temporarily summon a fleet of airships that will protect the castle from invaders.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/F4AC42D4B822966EB5300B1DFA2E5893D0283506/1202661.png",
+    "type": "Claimable",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 301,
+    "name": "Aetherium Capacity 5",
+    "description": "Increase storage capacity for aetherium.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/3708FD46EB310207185A47C7F5431CC36BD72F0E/1228524.png",
+    "type": "AccumulatingCurrency",
+    "required_level": 28,
+    "experience": 35,
+    "prerequisites": [
+      486
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 600,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 600,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 45,
+        "name": "Bloodstone Brick",
+        "item_id": 46730
+      },
+      {
+        "type": "Item",
+        "count": 12,
+        "name": "Superior Rune of Holding",
+        "item_id": 13009
+      },
+      {
+        "type": "Currency",
+        "count": 10000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Objective Aura 2: WvW Experience",
+    "description": "Adds a 10% WvW experience bonus to the boons applied by the guild's aura around claimed objectives.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/9B23BF3C1FC668B80308E9C10EB56F15713D9262/1228575.png",
+    "type": "Boost",
+    "required_level": 9,
+    "experience": 35,
+    "prerequisites": [
+      382
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Badge of Tribute",
+        "item_id": 71473
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Tome of Knowledge",
+        "item_id": 43766
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Mystic Coin",
+        "item_id": 19976
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Pile of Crystalline Dust",
+        "item_id": 24277
+      },
+      {
+        "type": "Item",
+        "count": 400,
+        "name": "Large Claw",
+        "item_id": 24350
+      },
+      {
+        "type": "Item",
+        "count": 30,
+        "name": "Molten Lodestone",
+        "item_id": 24315
+      },
+      {
+        "type": "Currency",
+        "count": 1500,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "name": "Obstacle: Cripple Turret",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/3DD22BC6402BC698F2807A16412FA0D7B47919DC/1202566.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 305,
+    "name": "Hedge Pillar",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/319C0CC427D3A9F42A6068C95DAFA4E2733EEF69/1227633.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 306,
+    "name": "Sabotage Depot",
+    "description": "Deploy bombs at the supply depot that will explode if the objective is captured by an enemy team. The explosion will destroy all remaining supply at the objective.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0808CFC0800F6ACBFAFE135D1F10F2E957FBF8D8/1202677.png",
+    "type": "Claimable",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 307,
+    "name": "Armored Dolyaks",
+    "description": "Dolyaks gain increased health and toughness.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/777EB69142514009C129B42DF4B9957AC5D8E1E4/1202662.png",
+    "type": "Claimable",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 308,
+    "name": "Arena Brawling: Green Team",
+    "description": "Add a green team coordinator to the arena, allowing for three-way team brawling.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/479E6B6168694D5B0EF8BC04C33037AE27272E43/1228474.png",
+    "type": "Unlock",
+    "required_level": 18,
+    "experience": 35,
+    "prerequisites": [
+      162
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Potion of PvP Reward",
+        "item_id": 68110
+      },
+      {
+        "type": "Item",
+        "count": 500,
+        "name": "Emerald Orb",
+        "item_id": 24515
+      },
+      {
+        "type": "Item",
+        "count": 500,
+        "name": "Green Wood Plank",
+        "item_id": 19710
+      },
+      {
+        "type": "Currency",
+        "count": 3000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "name": "Guild Trader 5",
+    "description": "Guild members may now purchase 3 items from the guild trader per day.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/3529D5FBF3C9400C0FD95E43ED2451FE2ACC049E/1228509.png",
+    "type": "Unlock",
+    "required_level": 38,
+    "experience": 35,
+    "prerequisites": [
+      452
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Ancient Wood Plank",
+        "item_id": 19712
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Orichalcum Ingot",
+        "item_id": 19685
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Cured Hardened Leather Square",
+        "item_id": 19737
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Bolt of Gossamer",
+        "item_id": 19746
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Mystic Coin",
+        "item_id": 19976
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Trading Post Express",
+        "item_id": 20017
+      },
+      {
+        "type": "Currency",
+        "count": 7500,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "name": "Aetherium Capacity 2",
+    "description": "Increase storage capacity for aetherium.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/B411CE2EAD3BCE03E063D7EBEA43BED77B4FE4C4/1228521.png",
+    "type": "AccumulatingCurrency",
+    "required_level": 8,
+    "experience": 35,
+    "prerequisites": [
+      331
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 400,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 400,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 30,
+        "name": "Bloodstone Brick",
+        "item_id": 46730
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Rune of Holding",
+        "item_id": 13006
+      },
+      {
+        "type": "Currency",
+        "count": 1500,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "name": "Obstacle: Vortex Trap",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/022EDA4B530003F0D36048DE4AF79B7BE2C0436D/1202575.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 312,
+    "name": "Square Planter",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/DFC546D52DB00676D10455A809A42E53B99DBC5A/1224074.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 313,
+    "name": "Synthesis Output 4",
+    "description": "Increase the efficiency of the guild's synthesizers, increasing daily ore and lumber harvests to 10 each and plant, leather, and cloth harvests to 3 each.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/20A4C4026E5E40572DFA9C5ED7A41B731BFAFEE8/1228626.png",
+    "type": "Unlock",
+    "required_level": 40,
+    "experience": 35,
+    "prerequisites": [
+      408,
+      586,
+      232,
+      208
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 125,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 150,
+        "name": "Bottle of Airship Oil",
+        "item_id": 69434
+      },
+      {
+        "type": "Item",
+        "count": 150,
+        "name": "Pile of Auric Dust",
+        "item_id": 69432
+      },
+      {
+        "type": "Item",
+        "count": 150,
+        "name": "Ley Line Spark",
+        "item_id": 69392
+      },
+      {
+        "type": "Currency",
+        "count": 25000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "name": "Brawling Obstacle: Flame Turrets",
+    "description": "Allow decorators in the arena to place turrets that apply burning to nearby combatants.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/BB4F9206FDF0FE4855B3220AB962FBB70B77CF6F/1228484.png",
+    "type": "Unlock",
+    "required_level": 32,
+    "experience": 35,
+    "prerequisites": [
+      379
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Vial of Linseed Oil",
+        "item_id": 73034
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Molten Lodestone",
+        "item_id": 24315
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Mystic Crystal",
+        "item_id": 20799
+      },
+      {
+        "type": "Currency",
+        "count": 2000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "name": "Lattice",
+    "description": "Purchased from the basic decoration vendor.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/C43436636FD1FC72551E06E3D65A2706355D4E4C/1225829.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Lattice",
+        "item_id": 76689
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "name": "Festive Arch",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/712B2BC1090799CDBD6990EAC7CD97574FC9797E/1224081.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 317,
+    "name": "Griffon Statue",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/2A95C920C200EFB329E7EE9E3346AFB170487F0D/1227670.png",
     "type": "Decoration",
     "required_level": 0,
     "experience": 0,

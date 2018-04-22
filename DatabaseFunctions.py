@@ -16,6 +16,7 @@ import shutil
 import pprint
 from TreasuryItem import TreasuryItem
 from copy import deepcopy
+import builtins
 
 if getattr(sys, 'frozen', False):
     # frozen
@@ -36,6 +37,7 @@ joinedPath = os.path.join( os.path.abspath(dir_), "guildLogs", "joined")
 kickPath = os.path.join( os.path.abspath(dir_), "guildLogs", "kick")
 upgradePath = os.path.join( os.path.abspath(dir_), "upgradeDatabase")
 itemPricePath = os.path.join( os.path.abspath(dir_), "Items", "itemPrices")
+stashPath = os.path.join( os.path.abspath(dir_), "guildLogs", "stash")
 #globalTreasury = {}
 #globalSHoppingList = {}
 #golbalSum = {}
@@ -76,6 +78,7 @@ def main():
     global favor, gLevel, aetherium
     favor, gLevel, aetherium = getGuildInfo()
     shoppingList, idList, upgradeList, upgradeListByID, ignoreIDList = makeShoppingList()
+    shoppingList, idList = addImagesToLists(shoppingList, idList)
     updateItemPricesTest(shoppingList)
     #updateItemPrices(shoppingList)
     itemPrices = createItemPriceList()
@@ -98,15 +101,86 @@ def main():
     favorUpgrades = printFavorUpgrades(missingUpgrades, favor, gLevel, gUpgradesJSON)
     addPricesToGUpgrades()
     addPricesToFavorUpgrades()
+    stashJSON = readStash()
+    userGoldContributions = userContributions(stashJSON)
     debug = upgradeList
+    listOfOGUsers = createListOfUsers(ogUserList)
 
 
-    return list, itemPrices, upgradeList, richTreasury, sum, itemPrices, idList, treasuryByUser, pricePerPerson, userRetention, favorUpgrades, rawTreasury, ogUserList
+    return list, itemPrices, upgradeList, richTreasury, sum, itemPrices, idList, treasuryByUser, pricePerPerson, userRetention, favorUpgrades, rawTreasury, ogUserList, userGoldContributions, listOfOGUsers
+
+#buildUpgradeDatabaseFromInternet()
+
+def addImagesToLists(shoppingList, idList):
+    JSONList = []
+    listOfIDs = builtins.list(idList.keys())
+    chunkCount = math.ceil(len(listOfIDs) / 100)
+    splitIDArray = chunkIt(listOfIDs, chunkCount)
+    for chunk in splitIDArray:
+        print("https://api.guildwars2.com/v2/items?ids=" + ",".join(map(str, chunk)))
+        idRequest = requests.get("https://api.guildwars2.com/v2/items?ids=" + ",".join(map(str, chunk)))
+        JSONList.append(idRequest.json())
+    masterJSON = {}
+    for item in JSONList:
+        for i in item:
+            masterJSON[i["id"]] = i
+    for item in shoppingList:
+        try:
+            shoppingList[item].image = masterJSON[shoppingList[item].id]
+        except KeyError:
+            print(str(item) + " not in id list")
+    for item in idList:
+        try:
+            idList[item].image = masterJSON[idList[item].id]
+        except KeyError:
+            print(str(item) + " not in id list")
+    return shoppingList, idList
+
+
+def createListOfUsers(userList):
+    newUserList = {}
+    for inviter in userList:
+        for user in userList[inviter]:
+            newUserList[user] = userList[inviter][user]
+    return newUserList
+
+def formatRaffleAChances(rafflePointList):
+    output = ""
+    longestLine = 0
+    for user in rafflePointList:
+        if len(user) > longestLine:
+            longestLine = len(user)
+    longestLine += 3
+    output = "User"
+    output += " " * (longestLine - len(output))
+    output += "\n"
+    for user in rafflePointList:
+        curentLine = ""
+        curentLine += user
+        curentLine += " " * (longestLine - len(curentLine))
+        curentLine += rafflePointList[user]
+        output += curentLine
+    return output
 
 
 
 
-    #buildUpgradeDatabaseFromInternet()
+def userContributions(stashJSON):
+    userList = {}
+    for event in stashJSON:
+        if event["coins"] > 0 and event["operation"] == "deposit":
+            addToHash(userList, event["user"], event["coins"])
+        elif event["coins"] > 0 and event["operation"] == "withdraw":
+            subtractFromHash(userList, event["user"], event["coins"])
+    test = userList
+    #pprint.pprint(userList)
+    return userList
+
+def readStash():
+    global stashPath
+    stashJSON = json.load(open(stashPath))
+    return stashJSON
+
 
 def getAetherium():
     global aetherium
@@ -183,7 +257,7 @@ def formatItemremaining(itemName, longestLine):
         while len(output) < longestLine + 8:
             output += " "
         if itemName in richTreasury:
-            output += str(richTreasury[itemName].amount)
+            output += str(total - richTreasury[itemName].amount)
         return output
 
 
@@ -477,13 +551,13 @@ def remainingPriceCheckGUpgrade(gUpgrade):
     return price
 
 def formatGUpgradeTreasury(gUpgrade, showEmpty=0, allUpgrades=0):
-    finalString = gUpgrade.name
-    longestLine = len(gUpgrade.name)
+    finalString = "Item Name"
+    longestLine = len("Item Name")
     for item in gUpgrade.ingredients:
         if len(gUpgrade.ingredients[item].name) > longestLine:
             longestLine = len(gUpgrade.ingredients[item].name)
     longestLine += 3
-    for i in range(0, longestLine -len(gUpgrade.name)):
+    for i in range(0, longestLine -len("Item Name")):
         finalString += " "
     if allUpgrades:
         finalString += "Amount   Price\n"
@@ -811,7 +885,7 @@ def parseGuildTreasury(idList, itemPrices):
     for user in userDict:
         newHash = {}
         for item in userDict[user]:
-            addItemToHash(newHash, userDict[user][item].name, userDict[user][item].id, userDict[user][item].amount)
+            addItemToHash(newHash, userDict[user][item].name, userDict[user][item].id, userDict[user][item].amount, userDict[user][item].image)
         userDict[user] = newHash
         for item in userDict[user]:
             itemID = userDict[user][item].id
@@ -823,7 +897,8 @@ def parseGuildTreasury(idList, itemPrices):
 
 def getLogFromInternet():
     os.chdir(os.path.dirname(os.path.join( os.path.abspath(dir_) , "guildLogs")))
-
+    #print("https://api.guildwars2.com/v2/guild/" + guildID + "/log?access_"
+                             #"token=" + APIKey)
     log = requests.get("https://api.guildwars2.com/v2/guild/" + guildID + "/log?access_"
                              "token=" + APIKey)
     logDict = {}
@@ -895,9 +970,10 @@ def getLogFromInternet():
     categories = {}
     for item in logDict:
         addToHash(categories,logDict[item]["type"], 1)
-    pprint(categories)
-    f.close()
+
     parseGuildLog()
+    pprint.pprint(categories)
+    f.close()
     return logDict
     #f.write(log.text)
 
@@ -905,17 +981,17 @@ def printLogCategories(logDict):
     categories = {}
     for item in logDict:
         addToHash(categories, logDict[item]["type"], 1)
-    pprint(categories)
+    #pprint(categories)
 
 
 def parseGuildLog():
-    os.chdir(os.path.join( os.path.abspath(dir_) , "guildLogs"))
+    os.chdir(os.path.join( os.path.abspath(dir_), "guildLogs"))
     f = open(logPath, "r")
     logJSON = json.load(f)
     categories = {}
 
     guildLogDict = {}
-    file = open(upgradePath, "w")
+    file = open(upgradePath, "w+")
     file.write("[")
     counter = 1
     files = []
@@ -940,6 +1016,7 @@ def parseGuildLog():
         counter += 1
         fileIndices[curentMetaIndex] += 1
     for item in files:
+        #print(item.name)
         item.write("\n]")
         item.close()
 
@@ -985,7 +1062,11 @@ def buildTreasuryDict(idList, itemList):
     for item in treasuryJSON:
         itemID = item["item_id"]
         itemAmount = item["count"]
-        treasuryDict[idList[itemID].name] = itemAmount
+        try:
+            treasuryDict[idList[itemID].name] = itemAmount
+        except:
+            print("Errored but im putting a bandaid on it")
+            continue
         newItem = copy.deepcopy(itemList[idList[itemID].name])
         newItem.amount = itemAmount
         richTreasuryDict[idList[itemID].name] = newItem
@@ -1029,7 +1110,7 @@ def buildUpgradeDatabaseFromInternet():
         else:
             curentFile.write(",\n")
 
-        print(counter, "/", len(gUpgradeList))
+        #print(counter, "/", len(gUpgradeList))
         curentFile.write(curentUpgrade.text)
         counter += 1
         fileIndices[curentMetaIndex] += 1
@@ -1052,12 +1133,12 @@ def buildUpgradeDatabaseFromInternetTest():
     for subList in gUpgradeChunks:
         urlStringAdd = ','.join(map(str, subList))
         curentUpgrade = requests.get("https://api.guildwars2.com/v2/guild/upgrades?ids=" + urlStringAdd)
-        print("https://api.guildwars2.com/v2/guild/upgrades?ids=" + urlStringAdd)
+        #print("https://api.guildwars2.com/v2/guild/upgrades?ids=" + urlStringAdd)
         curentUpgradeJSON = curentUpgrade.json()
         for item in curentUpgradeJSON:
             if item["type"] not in fileNames:
                 fileNames.append(item["type"])
-                print(item["type"])
+                #print(item["type"])
                 files.append(open(os.path.join(logDirectory, item["type"]), "w"))
                 fileIndices.append(0)
             fileName = item["type"]
@@ -1093,7 +1174,7 @@ def updateItemPricesTest(ShoppingList):
     os.chdir(os.path.join(os.path.abspath(dir_), "Items"))
     print("Updating price list.")
     counter = 1
-    outputFile = open(itemPricePath, "w")
+
     total = len(ShoppingList)
     coutner = 1
     idArray = []
@@ -1101,20 +1182,26 @@ def updateItemPricesTest(ShoppingList):
         idArray.append(ShoppingList[item].id)
     chunkCount = math.ceil(len(idArray)/100)
     splitIDArray = chunkIt(idArray, chunkCount)
-    open(itemPricePath, "w")
+
     count = 0
     collectiveDict = {}
     collectiveArray = []
     for itemArray in splitIDArray:
         string = ','.join(map(str, itemArray))
-        print("http://www.gw2spidy.com/api/v0.9/json/items/*all*/0?filter_ids=" + string)
-        requestItem = requests.get("http://www.gw2spidy.com/api/v0.9/json/items/*all*/0?filter_ids=" + string)
-        itemJSON = requestItem.json()
+        #print("http://www.gw2spidy.com/api/v0.9/json/items/*all*/0?filter_ids=" + string)
+        try:
+            requestItem = requests.get("http://www.gw2spidy.com/api/v0.9/json/items/*all*/0?filter_ids=" + string)
+            itemJSON = requestItem.json()
+        except json.decoder.JSONDecodeError:
+            print("Failed fetching prices from spidy")
+            return
         count += 1
         for JSONItem in itemJSON["results"]:
             collectiveArray.append(JSONItem)
             collectiveDict[JSONItem["data_id"]] = JSONItem
 
+    outputFile = open(itemPricePath, "w")
+    open(itemPricePath, "w")
     json.dump(collectiveArray, outputFile)
     return
     for item in ShoppingList:
@@ -1138,7 +1225,7 @@ def updateItemPrices(ShoppingList):
     total = len(ShoppingList)
     coutner = 1
     for item in ShoppingList:
-        print(str(counter) + '/' + str(total))
+        #print(str(counter) + '/' + str(total))
         if ShoppingList[item].id != None:
             itemText =  requests.get("http://www.gw2spidy.com/api/v0.9/json/item/" + str(ShoppingList[item].id)).text
             outputFile.write(itemText)
@@ -1224,15 +1311,16 @@ def makeShoppingListSingleFile(file):
     guildUpgradesList = {}
     gUpgradeItemList = {}
     guildUpgradeByIDList = {}
+
     for item in fileJSON:
         for costs in item["costs"]:
             if 'item_id' not in costs:
-                addItemToHash(list, costs["name"], None, costs["count"])
-                addItemToHash(gUpgradeItemList, costs["name"], None, costs["count"])
+                addItemToHash(list, costs["name"], None, costs["count"], None)
+                addItemToHash(gUpgradeItemList, costs["name"], None, costs["count"], None)
             else:
-                addItemIDToHash(idList, costs["name"], costs['item_id'], costs["count"])
-                addItemToHash(list, costs["name"], costs['item_id'], costs["count"])
-                addItemToHash(gUpgradeItemList, costs["name"], costs['item_id'], costs["count"])
+                addItemIDToHash(idList, costs["name"], costs['item_id'], costs["count"], None)
+                addItemToHash(list, costs["name"], costs['item_id'], costs["count"], None)
+                addItemToHash(gUpgradeItemList, costs["name"], costs['item_id'], costs["count"], None)
         #carefull with this next line, it might cause bugs if guild upgrades are not unique
         guildUpgradesList[item["name"]] = guildUpgrade(item["id"], item["name"], gUpgradeItemList, item["required_level"], item["prerequisites"], item["type"], item["description"], item["experience"])
         guildUpgradeByIDList[item["id"]] = guildUpgrade(item["id"], item["name"], gUpgradeItemList, item["required_level"], item["prerequisites"], item["type"], item["description"], item["experience"])
@@ -1284,19 +1372,19 @@ def merge_two_dicts(x, y):
     z.update(y)
     return z
 
-def addItemIDToHash(hash, itemName, id, amount):
+def addItemIDToHash(hash, itemName, id, amount, img):
     if itemName in hash:
         hash[id].amount = hash[itemName].amount  + amount
     else:
-        hash[id] = Item(id, itemName, amount)
+        hash[id] = Item(id, itemName, amount, img)
 
     return hash
 
-def addItemToHash(hash, itemName, id, amount):
+def addItemToHash(hash, itemName, id, amount, img):
     if itemName in hash:
         hash[itemName].amount = hash[itemName].amount  + amount
     else:
-        hash[itemName] = Item(id, itemName, amount)
+        hash[itemName] = Item(id, itemName, amount, img)
 
     return hash
 
@@ -1305,6 +1393,13 @@ def addToHash(hash, toBeAdded, value):
         hash[toBeAdded] = hash[toBeAdded] + value
     else:
         hash[toBeAdded] = value
+    return hash
+
+def subtractFromHash(hash, toBeAdded, value):
+    if toBeAdded in hash:
+        hash[toBeAdded] = hash[toBeAdded] - value
+    else:
+        hash[toBeAdded] = value * -1
     return hash
 
 def incrementHash(hash, toBeAdded):

@@ -1,546 +1,6 @@
 [
 [
   {
-    "id": 295,
-    "name": "Lit Wagon",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/04563DD6B515BB18671B3496A542CE5360745673/1227557.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 297,
-    "name": "Tall Lattice",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/BA3FBD0F6A7A13917F9C626EFC9E1955555E3F19/1224822.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 298,
-    "name": "Airship Defense",
-    "description": "Activate this Tactic to temporarily summon a fleet of airships that will protect the castle from invaders.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/F4AC42D4B822966EB5300B1DFA2E5893D0283506/1202661.png",
-    "type": "Claimable",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [
-      407
-    ],
-    "costs": []
-  },
-  {
-    "id": 301,
-    "name": "Aetherium Capacity 5",
-    "description": "Increase storage capacity for aetherium.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/3708FD46EB310207185A47C7F5431CC36BD72F0E/1228524.png",
-    "type": "AccumulatingCurrency",
-    "required_level": 28,
-    "experience": 35,
-    "prerequisites": [
-      486
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 500,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 600,
-        "name": "Elder Wood Plank",
-        "item_id": 19709
-      },
-      {
-        "type": "Item",
-        "count": 600,
-        "name": "Mithril Ingot",
-        "item_id": 19684
-      },
-      {
-        "type": "Item",
-        "count": 45,
-        "name": "Bloodstone Brick",
-        "item_id": 46730
-      },
-      {
-        "type": "Item",
-        "count": 12,
-        "name": "Superior Rune of Holding",
-        "item_id": 13009
-      },
-      {
-        "type": "Currency",
-        "count": 10000,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 303,
-    "name": "Objective Aura 2: WvW Experience",
-    "description": "Adds a 10% WvW experience bonus to the boons applied by the guild's aura around claimed objectives.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/9B23BF3C1FC668B80308E9C10EB56F15713D9262/1228575.png",
-    "type": "Boost",
-    "required_level": 9,
-    "experience": 35,
-    "prerequisites": [
-      382
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 200,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 20,
-        "name": "Badge of Tribute",
-        "item_id": 71473
-      },
-      {
-        "type": "Item",
-        "count": 20,
-        "name": "Tome of Knowledge",
-        "item_id": 43766
-      },
-      {
-        "type": "Item",
-        "count": 100,
-        "name": "Mystic Coin",
-        "item_id": 19976
-      },
-      {
-        "type": "Item",
-        "count": 50,
-        "name": "Pile of Crystalline Dust",
-        "item_id": 24277
-      },
-      {
-        "type": "Item",
-        "count": 400,
-        "name": "Large Claw",
-        "item_id": 24350
-      },
-      {
-        "type": "Item",
-        "count": 30,
-        "name": "Molten Lodestone",
-        "item_id": 24315
-      },
-      {
-        "type": "Currency",
-        "count": 1500,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 304,
-    "name": "Obstacle: Cripple Turret",
-    "description": "",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/3DD22BC6402BC698F2807A16412FA0D7B47919DC/1202566.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 305,
-    "name": "Hedge Pillar",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/319C0CC427D3A9F42A6068C95DAFA4E2733EEF69/1227633.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 306,
-    "name": "Sabotage Depot",
-    "description": "Deploy bombs at the supply depot that will explode if the objective is captured by an enemy team. The explosion will destroy all remaining supply at the objective.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/0808CFC0800F6ACBFAFE135D1F10F2E957FBF8D8/1202677.png",
-    "type": "Claimable",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [
-      407
-    ],
-    "costs": []
-  },
-  {
-    "id": 307,
-    "name": "Armored Dolyaks",
-    "description": "Dolyaks gain increased health and toughness.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/777EB69142514009C129B42DF4B9957AC5D8E1E4/1202662.png",
-    "type": "Claimable",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [
-      407
-    ],
-    "costs": []
-  },
-  {
-    "id": 308,
-    "name": "Arena Brawling: Green Team",
-    "description": "Add a green team coordinator to the arena, allowing for three-way team brawling.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/479E6B6168694D5B0EF8BC04C33037AE27272E43/1228474.png",
-    "type": "Unlock",
-    "required_level": 18,
-    "experience": 35,
-    "prerequisites": [
-      162
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 300,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 50,
-        "name": "Potion of PvP Reward",
-        "item_id": 68110
-      },
-      {
-        "type": "Item",
-        "count": 500,
-        "name": "Emerald Orb",
-        "item_id": 24515
-      },
-      {
-        "type": "Item",
-        "count": 500,
-        "name": "Green Wood Plank",
-        "item_id": 19710
-      },
-      {
-        "type": "Currency",
-        "count": 3000,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 309,
-    "name": "Guild Trader 5",
-    "description": "Guild members may now purchase 3 items from the guild trader per day.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/3529D5FBF3C9400C0FD95E43ED2451FE2ACC049E/1228509.png",
-    "type": "Unlock",
-    "required_level": 38,
-    "experience": 35,
-    "prerequisites": [
-      452
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 500,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Ancient Wood Plank",
-        "item_id": 19712
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Orichalcum Ingot",
-        "item_id": 19685
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Cured Hardened Leather Square",
-        "item_id": 19737
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Bolt of Gossamer",
-        "item_id": 19746
-      },
-      {
-        "type": "Item",
-        "count": 100,
-        "name": "Glob of Ectoplasm",
-        "item_id": 19721
-      },
-      {
-        "type": "Item",
-        "count": 50,
-        "name": "Mystic Coin",
-        "item_id": 19976
-      },
-      {
-        "type": "Item",
-        "count": 5,
-        "name": "Trading Post Express",
-        "item_id": 20017
-      },
-      {
-        "type": "Currency",
-        "count": 7500,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 310,
-    "name": "Aetherium Capacity 2",
-    "description": "Increase storage capacity for aetherium.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/B411CE2EAD3BCE03E063D7EBEA43BED77B4FE4C4/1228521.png",
-    "type": "AccumulatingCurrency",
-    "required_level": 8,
-    "experience": 35,
-    "prerequisites": [
-      331
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 200,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 400,
-        "name": "Elder Wood Plank",
-        "item_id": 19709
-      },
-      {
-        "type": "Item",
-        "count": 400,
-        "name": "Mithril Ingot",
-        "item_id": 19684
-      },
-      {
-        "type": "Item",
-        "count": 30,
-        "name": "Bloodstone Brick",
-        "item_id": 46730
-      },
-      {
-        "type": "Item",
-        "count": 200,
-        "name": "Rune of Holding",
-        "item_id": 13006
-      },
-      {
-        "type": "Currency",
-        "count": 1500,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 311,
-    "name": "Obstacle: Vortex Trap",
-    "description": "",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/022EDA4B530003F0D36048DE4AF79B7BE2C0436D/1202575.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 312,
-    "name": "Square Planter",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/DFC546D52DB00676D10455A809A42E53B99DBC5A/1224074.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 313,
-    "name": "Synthesis Output 4",
-    "description": "Increase the efficiency of the guild's synthesizers, increasing daily ore and lumber harvests to 10 each and plant, leather, and cloth harvests to 3 each.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/20A4C4026E5E40572DFA9C5ED7A41B731BFAFEE8/1228626.png",
-    "type": "Unlock",
-    "required_level": 40,
-    "experience": 35,
-    "prerequisites": [
-      408,
-      586,
-      232,
-      208
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 500,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 125,
-        "name": "Glob of Ectoplasm",
-        "item_id": 19721
-      },
-      {
-        "type": "Item",
-        "count": 150,
-        "name": "Bottle of Airship Oil",
-        "item_id": 69434
-      },
-      {
-        "type": "Item",
-        "count": 150,
-        "name": "Pile of Auric Dust",
-        "item_id": 69432
-      },
-      {
-        "type": "Item",
-        "count": 150,
-        "name": "Ley Line Spark",
-        "item_id": 69392
-      },
-      {
-        "type": "Currency",
-        "count": 25000,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 314,
-    "name": "Brawling Obstacle: Flame Turrets",
-    "description": "Allow decorators in the arena to place turrets that apply burning to nearby combatants.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/BB4F9206FDF0FE4855B3220AB962FBB70B77CF6F/1228484.png",
-    "type": "Unlock",
-    "required_level": 32,
-    "experience": 35,
-    "prerequisites": [
-      379
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 200,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Mithril Ingot",
-        "item_id": 19684
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Elder Wood Plank",
-        "item_id": 19709
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Vial of Linseed Oil",
-        "item_id": 73034
-      },
-      {
-        "type": "Item",
-        "count": 10,
-        "name": "Molten Lodestone",
-        "item_id": 24315
-      },
-      {
-        "type": "Item",
-        "count": 20,
-        "name": "Mystic Crystal",
-        "item_id": 20799
-      },
-      {
-        "type": "Currency",
-        "count": 2000,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 315,
-    "name": "Lattice",
-    "description": "Purchased from the basic decoration vendor.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/C43436636FD1FC72551E06E3D65A2706355D4E4C/1225829.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": [
-      {
-        "type": "Item",
-        "count": 1,
-        "name": "Lattice",
-        "item_id": 76689
-      }
-    ]
-  },
-  {
-    "id": 316,
-    "name": "Festive Arch",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/712B2BC1090799CDBD6990EAC7CD97574FC9797E/1224081.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 317,
-    "name": "Griffon Statue",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/2A95C920C200EFB329E7EE9E3346AFB170487F0D/1227670.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
     "id": 318,
     "name": "Seance Candle",
     "description": "Crafted by scribes.",
@@ -710,10 +170,7 @@
     "type": "AccumulatingCurrency",
     "required_level": 31,
     "experience": 35,
-    "prerequisites": [
-      391,
-      398
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -1146,9 +603,7 @@
     "type": "Unlock",
     "required_level": 28,
     "experience": 35,
-    "prerequisites": [
-      162
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -1234,9 +689,7 @@
     "type": "Boost",
     "required_level": 37,
     "experience": 35,
-    "prerequisites": [
-      123
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -1394,9 +847,7 @@
     "type": "Unlock",
     "required_level": 40,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -1470,8 +921,7 @@
     "required_level": 39,
     "experience": 35,
     "prerequisites": [
-      416,
-      379
+      416
     ],
     "costs": [
       {
@@ -1710,8 +1160,7 @@
     "required_level": 18,
     "experience": 35,
     "prerequisites": [
-      308,
-      379
+      308
     ],
     "costs": [
       {
@@ -2182,9 +1631,7 @@
     "type": "Unlock",
     "required_level": 16,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -2867,9 +2314,7 @@
     "type": "Unlock",
     "required_level": 0,
     "experience": 100,
-    "prerequisites": [
-      240
-    ],
+    "prerequisites": [],
     "costs": []
   },
   {
@@ -3121,9 +2566,7 @@
     "type": "Unlock",
     "required_level": 39,
     "experience": 35,
-    "prerequisites": [
-      162
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -3265,9 +2708,7 @@
     "type": "Unlock",
     "required_level": 34,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -4356,9 +3797,7 @@
     "type": "Unlock",
     "required_level": 24,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -5244,6 +4683,1162 @@
       {
         "type": "Currency",
         "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 491,
+    "name": "Objective Aura 6: Toughness",
+    "description": "Adds a +100 toughness bonus to the boons applied by the guild's aura around claimed objectives.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/62EC253FB4A1E108C7B278BD3793FD2DCAD951A9/1228573.png",
+    "type": "Boost",
+    "required_level": 29,
+    "experience": 35,
+    "prerequisites": [
+      585
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Badge of Tribute",
+        "item_id": 71473
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Large Scale",
+        "item_id": 24288
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Mystic Coin",
+        "item_id": 19976
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Pile of Crystalline Dust",
+        "item_id": 24277
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Armored Scale",
+        "item_id": 24289
+      },
+      {
+        "type": "Item",
+        "count": 25,
+        "name": "Onyx Lodestone",
+        "item_id": 24310
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 492,
+    "name": "Marriner Statue",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/B6DB98655EBC04045FA9C0D236C1F7F09E3BB608/1227734.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 494,
+    "name": "Scribing: Guild Gold and Magic Find Banner",
+    "description": "Craft schematics to manufacture banners that offer allies a 10% boost to gold gain and a 15% boost to magic find for 30 minutes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4D4832BCF6273C04B950041EF7CA73502D5B06E8/1228559.png",
+    "type": "Unlock",
+    "required_level": 29,
+    "experience": 35,
+    "prerequisites": [
+      622,
+      570,
+      424
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Sheet of Smooth Paper",
+        "item_id": 71702
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Cured Thick Leather Square",
+        "item_id": 19735
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Mystic Crystal",
+        "item_id": 20799
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Gold Ingot",
+        "item_id": 19682
+      },
+      {
+        "type": "Item",
+        "count": 77,
+        "name": "Essence of Luck",
+        "item_id": 45178
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "name": "Scribing: Airship Defense",
+    "description": "Craft schematics to manufacture a tier 3 tactic that temporarily summons a group of airships to circle Stonemist Castle and bombard invaders while you claim it.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/B9A97AFB3F3BFCEBD2614472BE7B0B9DCE035456/1228591.png",
+    "type": "Unlock",
+    "required_level": 40,
+    "experience": 35,
+    "prerequisites": [
+      476
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 1000,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Sheet of Quality Paper",
+        "item_id": 71136
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Cured Thick Leather Square",
+        "item_id": 19735
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Mystic Crystal",
+        "item_id": 20799
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Charged Lodestone",
+        "item_id": 24305
+      },
+      {
+        "type": "Currency",
+        "count": 7500,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 496,
+    "name": "Potted Fern Tree",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/270FFA9AA4970796301019A02B23A9CA31106C64/1225851.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 497,
+    "name": "Elegant Square Pillar",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/9D023F6E25CD95B86AEE10F77F59EFF145E7A623/1227651.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 498,
+    "name": "Ore Synthesizer 3",
+    "description": "Add gold as a possible output from the workshop's ore synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/F37AFD1945BB15C30C02551E156E0E34B793B39B/1228634.png",
+    "type": "Unlock",
+    "required_level": 23,
+    "experience": 35,
+    "prerequisites": [
+      509,
+      204
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Gold Ore",
+        "item_id": 19698
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Amethyst Lump",
+        "item_id": 24527
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Carnelian Lump",
+        "item_id": 24472
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Lapis Lump",
+        "item_id": 24507
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Peridot Lump",
+        "item_id": 24504
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Spinel Lump",
+        "item_id": 24526
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Sunstone Lump",
+        "item_id": 24503
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Topaz Lump",
+        "item_id": 24506
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "name": "Elegant Wall Panel",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1E7EB3D2100205AD6747E734B675C67CB85DD0F4/1227654.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 501,
+    "name": "Brawling Obstacle: Purple Torches",
+    "description": "Allow decorators in the arena to place purple torches, which can be lit and unlit at will.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/DF8052B936B65F9E2E7D3CC0A5C21E621975DFCB/1228495.png",
+    "type": "Unlock",
+    "required_level": 28,
+    "experience": 35,
+    "prerequisites": [
+      342
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 25,
+        "name": "Unidentified Dye",
+        "item_id": 20323
+      },
+      {
+        "type": "Item",
+        "count": 1000,
+        "name": "Eggplant",
+        "item_id": 12502
+      },
+      {
+        "type": "Item",
+        "count": 500,
+        "name": "Amethyst Lump",
+        "item_id": 24527
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Molten Lodestone",
+        "item_id": 24315
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Mystic Crystal",
+        "item_id": 20799
+      },
+      {
+        "type": "Currency",
+        "count": 2000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "name": "Blue Balloon",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/CE0CC960081C4D240D5714D525B273B7C7A5AEFA/1226124.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 504,
+    "name": "Guild Enhancement: Karma",
+    "description": "Add a selectable personal enhancement at the tavern which will increases the rate of karma gain.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/CC62B394DB025A6305A349121BC171FCBEEE9407/1228549.png",
+    "type": "Unlock",
+    "required_level": 1,
+    "experience": 35,
+    "prerequisites": [
+      359
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 50,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 40,
+        "name": "Bowl of Saffron-Mango Ice Cream",
+        "item_id": 38210
+      },
+      {
+        "type": "Item",
+        "count": 30,
+        "name": "Bottle of Elonian Wine",
+        "item_id": 19663
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Obsidian Shard",
+        "item_id": 19925
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Mystic Crystal",
+        "item_id": 20799
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Glass Mug",
+        "item_id": 71580
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Empty Keg",
+        "item_id": 72224
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Large Claw",
+        "item_id": 24350
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Large Fang",
+        "item_id": 24356
+      }
+    ]
+  },
+  {
+    "id": 505,
+    "name": "Guild Arrow Cart Blueprints",
+    "description": "Use to construct a guild arrow cart build site. It is more powerful than a standard arrow cart and displays your guild emblem. Range 2,500. Requires 40 supply to complete.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/EC68089F9C7ACF10C90348B6662D75083300EC4D/1228593.png",
+    "type": "Consumable",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 1,
+        "name": "Guild Favor",
+        "item_id": 70701
+      }
+    ]
+  },
+  {
+    "id": 506,
+    "name": "Mine Excavation 2",
+    "description": "Expand your guild's mine.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0A029254FA700646EB7DF2AD1A25B65B6465D764/1228526.png",
+    "type": "Unlock",
+    "required_level": 15,
+    "experience": 100,
+    "prerequisites": [
+      285
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 1000,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 1000,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Silverwastes Shovel",
+        "item_id": 67826
+      },
+      {
+        "type": "Item",
+        "count": 7,
+        "name": "18 Slot Thick Leather Pack",
+        "item_id": 9576
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Vial of Linseed Oil",
+        "item_id": 73034
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Molten Lodestone",
+        "item_id": 24315
+      },
+      {
+        "type": "Currency",
+        "count": 3000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 507,
+    "name": "Elegant Pillar",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/656425E8C3FBC2E42E69F809C154080997A7B906/1227614.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 508,
+    "name": "Yellow Balloon",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/E34B175DD5DE33045F7CC3C13F04DBC4F35D9432/1226135.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 509,
+    "name": "Ore Synthesizer 2",
+    "description": "Add silver as a possible output from the workshop's ore synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/74509867BE68E54C1E099A2265D7969AA09804F9/1228633.png",
+    "type": "Unlock",
+    "required_level": 15,
+    "experience": 35,
+    "prerequisites": [
+      174
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Silver Ore",
+        "item_id": 19703
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Iron Ore",
+        "item_id": 19699
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Amethyst Nugget",
+        "item_id": 24501
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Carnelian Nugget",
+        "item_id": 24469
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Lapis Nugget",
+        "item_id": 24470
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Peridot Nugget",
+        "item_id": 24468
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Spinel Nugget",
+        "item_id": 24889
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Sunstone Nugget",
+        "item_id": 24471
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Topaz Nugget",
+        "item_id": 24535
+      },
+      {
+        "type": "Currency",
+        "count": 3000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 510,
+    "name": "Square Candlestick",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/69199C0E95BA240B6CA6ACED5CE60C72C1BB7E03/1227595.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 511,
+    "name": "Wagon",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E2BDB83EC1AC2131AEC6C444BE4090CFB9A623FD/1227551.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Wagon",
+        "item_id": 75793
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "name": "Invulnerable Fortifications",
+    "description": "Activate this Tactic to temporarily make all walls and gates at the objective invulnerable.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/ACE0ABCA230424BA6C653E52DD10431D49029603/1202672.png",
+    "type": "Claimable",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 514,
+    "name": "Guild Hall Swiftness +11%",
+    "description": "Permanently increase the run speed of guild members while in this guild hall by 11%.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/43C3EF0CAF292C970643A5FD71B99214342CBF33/1228551.png",
+    "type": "Boost",
+    "required_level": 9,
+    "experience": 35,
+    "prerequisites": [
+      359
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Seaweed",
+        "item_id": 12509
+      },
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Superior Rune of the Traveler",
+        "item_id": 24691
+      },
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Superior Rune of Speed",
+        "item_id": 24720
+      },
+      {
+        "type": "Currency",
+        "count": 2000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 516,
+    "name": "Basic Crate",
+    "description": "Purchased from the basic decoration vendor.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/AE0B580F951FDAD2BE6CD40808C758E2513AD0BE/1227550.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Basic Crate",
+        "item_id": 73282
+      }
+    ]
+  },
+  {
+    "id": 517,
+    "name": "Deluxe Vine Wall",
+    "description": "Exchanged for a Mordremoth's Bane Guild Decoration token.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/5535199C513A1DF4D8BA5D3A55312CE1544A7701/1225583.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 518,
+    "name": "Large Square Pillar",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/BC9D080C774ED29C552780A3C3C7AEBECD5079CB/1223919.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 519,
+    "name": "Potted Fan Palm",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/C217C513FC0C2B0746A4B4FAE8F210B707E4CE90/1225825.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 520,
+    "name": "Arena Ring-Out Barrier",
+    "description": "Add an option for the obstacles coordinator to turn on a boundary around the brawling area to prevent ring-outs.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/5495A371AE04F62A333D7D1630D0DA7222A11762/1228489.png",
+    "type": "Unlock",
+    "required_level": 23,
+    "experience": 35,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Vial of Potent Blood",
+        "item_id": 24294
+      },
+      {
+        "type": "Item",
+        "count": 45,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Obsidian Shard",
+        "item_id": 19925
+      },
+      {
+        "type": "Currency",
+        "count": 3000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 521,
+    "name": "Body Topiary",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1AC3D190045A2812D10014DE09CAA9D1B9E14760/1224774.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 522,
+    "name": "Scribing: Guild Karma and Experience Banner",
+    "description": "Craft schematics to manufacture banners that offer allies a 10% boost to experience and karma gain for 30 minutes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/F69AB5B574DF12C1E14DE478D4114C0A034D7C73/1228558.png",
+    "type": "Unlock",
+    "required_level": 25,
+    "experience": 35,
+    "prerequisites": [
+      632,
+      234,
+      424
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Sheet of Fine Paper",
+        "item_id": 70714
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Cured Thick Leather Square",
+        "item_id": 19735
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Mystic Crystal",
+        "item_id": 20799
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Obsidian Shard",
+        "item_id": 19925
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Tome of Knowledge",
+        "item_id": 43766
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "name": "Brawling Obstacle: Vortex Traps",
+    "description": "Allow decorators in the arena to place traps that cyclically activate and pull in nearby players.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/B0313C73646C076E0E053E35E7BE5DBA3CDB4F93/1228490.png",
+    "type": "Unlock",
+    "required_level": 20,
+    "experience": 35,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 300,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 30,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Pile of Crystalline Dust",
+        "item_id": 24277
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Mystic Crystal",
+        "item_id": 20799
+      },
+      {
+        "type": "Currency",
+        "count": 2000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "name": "Potted Tall Cypress",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/6848504355574ECC1D3C0B1C0360B34E5F14A453/1225844.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 526,
+    "name": "Simple Shelf",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/45C20380CDAE737A94987E5F56964025C93E775B/1341565.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 527,
+    "name": "Obstacle: Wide Lava Floor",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/58C493F548D59AD59F32112652F96A03404D0BB9/1202583.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 528,
+    "name": "Library Shelf",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/3151C0307DA502AA592EDCB339532297FB45A366/1227642.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 529,
+    "name": "Obstacle: Fear Turret",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/934DFDC70F1C148041F504E0A9EE1755FD0F9B78/1202568.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 531,
+    "name": "Row of Candles",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/E1A8DD264FA05BB9D3C6DD9A5A235BDCD658F56C/1227741.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 532,
+    "name": "Potted Junglerice",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/C8749CE4C06DA03D6F329EA29E30796BFA47657B/1225785.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 533,
+    "name": "Dwayna Statue",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/2E282CCF79AE0AAC6CC7C8920546CDCE93CA049E/1225337.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 534,
+    "name": "Thorny Jack-o'-Lantern",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/F8EF4305E2087916EBCFC08032EC98CF0880C9A6/1226082.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 536,
+    "name": "Guild Weaponsmith 2",
+    "description": "Add recipes for chiaroscuro weapons to the guild weaponsmith's inventory.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/B37C7814535B72D903D6941E3945E70830AB1803/1228512.png",
+    "type": "Unlock",
+    "required_level": 40,
+    "experience": 35,
+    "prerequisites": [
+      70,
+      602
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Orichalcum Ingot",
+        "item_id": 19685
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Ancient Wood Plank",
+        "item_id": 19712
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Milling Stone",
+        "item_id": 77256
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Celestial Orichalcum Imbued Inscription",
+        "item_id": 43775
+      },
+      {
+        "type": "Currency",
+        "count": 10000,
         "name": "Aetherium"
       }
     ]

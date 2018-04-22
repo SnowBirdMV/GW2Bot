@@ -27,9 +27,9 @@ def compareMatsToNeededItems(matList, neededList, idList, rawTreasury):
             if matName in neededList:
                 if rawTreasury[matName].totalAmount - rawTreasury[matName].curentAmount > 0 and material["count"] > 0:
                     if material["count"] > rawTreasury[matName].totalAmount - rawTreasury[matName].curentAmount:
-                        haveList[matName] = item.Item(material["id"], matName,rawTreasury[matName].totalAmount - rawTreasury[matName].curentAmount)
+                        haveList[matName] = item.Item(material["id"], matName,rawTreasury[matName].totalAmount - rawTreasury[matName].curentAmount, None)
                     else:
-                        haveList[matName] = item.Item(material["id"], matName, material["count"])
+                        haveList[matName] = item.Item(material["id"], matName, material["count"], None)
 
         except KeyError:
             pass

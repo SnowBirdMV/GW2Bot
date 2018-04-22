@@ -1,546 +1,6 @@
 [
 [
   {
-    "id": 295,
-    "name": "Lit Wagon",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/04563DD6B515BB18671B3496A542CE5360745673/1227557.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 297,
-    "name": "Tall Lattice",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/BA3FBD0F6A7A13917F9C626EFC9E1955555E3F19/1224822.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 298,
-    "name": "Airship Defense",
-    "description": "Activate this Tactic to temporarily summon a fleet of airships that will protect the castle from invaders.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/F4AC42D4B822966EB5300B1DFA2E5893D0283506/1202661.png",
-    "type": "Claimable",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [
-      407
-    ],
-    "costs": []
-  },
-  {
-    "id": 301,
-    "name": "Aetherium Capacity 5",
-    "description": "Increase storage capacity for aetherium.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/3708FD46EB310207185A47C7F5431CC36BD72F0E/1228524.png",
-    "type": "AccumulatingCurrency",
-    "required_level": 28,
-    "experience": 35,
-    "prerequisites": [
-      486
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 500,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 600,
-        "name": "Elder Wood Plank",
-        "item_id": 19709
-      },
-      {
-        "type": "Item",
-        "count": 600,
-        "name": "Mithril Ingot",
-        "item_id": 19684
-      },
-      {
-        "type": "Item",
-        "count": 45,
-        "name": "Bloodstone Brick",
-        "item_id": 46730
-      },
-      {
-        "type": "Item",
-        "count": 12,
-        "name": "Superior Rune of Holding",
-        "item_id": 13009
-      },
-      {
-        "type": "Currency",
-        "count": 10000,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 303,
-    "name": "Objective Aura 2: WvW Experience",
-    "description": "Adds a 10% WvW experience bonus to the boons applied by the guild's aura around claimed objectives.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/9B23BF3C1FC668B80308E9C10EB56F15713D9262/1228575.png",
-    "type": "Boost",
-    "required_level": 9,
-    "experience": 35,
-    "prerequisites": [
-      382
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 200,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 20,
-        "name": "Badge of Tribute",
-        "item_id": 71473
-      },
-      {
-        "type": "Item",
-        "count": 20,
-        "name": "Tome of Knowledge",
-        "item_id": 43766
-      },
-      {
-        "type": "Item",
-        "count": 100,
-        "name": "Mystic Coin",
-        "item_id": 19976
-      },
-      {
-        "type": "Item",
-        "count": 50,
-        "name": "Pile of Crystalline Dust",
-        "item_id": 24277
-      },
-      {
-        "type": "Item",
-        "count": 400,
-        "name": "Large Claw",
-        "item_id": 24350
-      },
-      {
-        "type": "Item",
-        "count": 30,
-        "name": "Molten Lodestone",
-        "item_id": 24315
-      },
-      {
-        "type": "Currency",
-        "count": 1500,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 304,
-    "name": "Obstacle: Cripple Turret",
-    "description": "",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/3DD22BC6402BC698F2807A16412FA0D7B47919DC/1202566.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 305,
-    "name": "Hedge Pillar",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/319C0CC427D3A9F42A6068C95DAFA4E2733EEF69/1227633.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 306,
-    "name": "Sabotage Depot",
-    "description": "Deploy bombs at the supply depot that will explode if the objective is captured by an enemy team. The explosion will destroy all remaining supply at the objective.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/0808CFC0800F6ACBFAFE135D1F10F2E957FBF8D8/1202677.png",
-    "type": "Claimable",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [
-      407
-    ],
-    "costs": []
-  },
-  {
-    "id": 307,
-    "name": "Armored Dolyaks",
-    "description": "Dolyaks gain increased health and toughness.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/777EB69142514009C129B42DF4B9957AC5D8E1E4/1202662.png",
-    "type": "Claimable",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [
-      407
-    ],
-    "costs": []
-  },
-  {
-    "id": 308,
-    "name": "Arena Brawling: Green Team",
-    "description": "Add a green team coordinator to the arena, allowing for three-way team brawling.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/479E6B6168694D5B0EF8BC04C33037AE27272E43/1228474.png",
-    "type": "Unlock",
-    "required_level": 18,
-    "experience": 35,
-    "prerequisites": [
-      162
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 300,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 50,
-        "name": "Potion of PvP Reward",
-        "item_id": 68110
-      },
-      {
-        "type": "Item",
-        "count": 500,
-        "name": "Emerald Orb",
-        "item_id": 24515
-      },
-      {
-        "type": "Item",
-        "count": 500,
-        "name": "Green Wood Plank",
-        "item_id": 19710
-      },
-      {
-        "type": "Currency",
-        "count": 3000,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 309,
-    "name": "Guild Trader 5",
-    "description": "Guild members may now purchase 3 items from the guild trader per day.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/3529D5FBF3C9400C0FD95E43ED2451FE2ACC049E/1228509.png",
-    "type": "Unlock",
-    "required_level": 38,
-    "experience": 35,
-    "prerequisites": [
-      452
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 500,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Ancient Wood Plank",
-        "item_id": 19712
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Orichalcum Ingot",
-        "item_id": 19685
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Cured Hardened Leather Square",
-        "item_id": 19737
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Bolt of Gossamer",
-        "item_id": 19746
-      },
-      {
-        "type": "Item",
-        "count": 100,
-        "name": "Glob of Ectoplasm",
-        "item_id": 19721
-      },
-      {
-        "type": "Item",
-        "count": 50,
-        "name": "Mystic Coin",
-        "item_id": 19976
-      },
-      {
-        "type": "Item",
-        "count": 5,
-        "name": "Trading Post Express",
-        "item_id": 20017
-      },
-      {
-        "type": "Currency",
-        "count": 7500,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 310,
-    "name": "Aetherium Capacity 2",
-    "description": "Increase storage capacity for aetherium.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/B411CE2EAD3BCE03E063D7EBEA43BED77B4FE4C4/1228521.png",
-    "type": "AccumulatingCurrency",
-    "required_level": 8,
-    "experience": 35,
-    "prerequisites": [
-      331
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 200,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 400,
-        "name": "Elder Wood Plank",
-        "item_id": 19709
-      },
-      {
-        "type": "Item",
-        "count": 400,
-        "name": "Mithril Ingot",
-        "item_id": 19684
-      },
-      {
-        "type": "Item",
-        "count": 30,
-        "name": "Bloodstone Brick",
-        "item_id": 46730
-      },
-      {
-        "type": "Item",
-        "count": 200,
-        "name": "Rune of Holding",
-        "item_id": 13006
-      },
-      {
-        "type": "Currency",
-        "count": 1500,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 311,
-    "name": "Obstacle: Vortex Trap",
-    "description": "",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/022EDA4B530003F0D36048DE4AF79B7BE2C0436D/1202575.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 312,
-    "name": "Square Planter",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/DFC546D52DB00676D10455A809A42E53B99DBC5A/1224074.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 313,
-    "name": "Synthesis Output 4",
-    "description": "Increase the efficiency of the guild's synthesizers, increasing daily ore and lumber harvests to 10 each and plant, leather, and cloth harvests to 3 each.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/20A4C4026E5E40572DFA9C5ED7A41B731BFAFEE8/1228626.png",
-    "type": "Unlock",
-    "required_level": 40,
-    "experience": 35,
-    "prerequisites": [
-      408,
-      586,
-      232,
-      208
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 500,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 125,
-        "name": "Glob of Ectoplasm",
-        "item_id": 19721
-      },
-      {
-        "type": "Item",
-        "count": 150,
-        "name": "Bottle of Airship Oil",
-        "item_id": 69434
-      },
-      {
-        "type": "Item",
-        "count": 150,
-        "name": "Pile of Auric Dust",
-        "item_id": 69432
-      },
-      {
-        "type": "Item",
-        "count": 150,
-        "name": "Ley Line Spark",
-        "item_id": 69392
-      },
-      {
-        "type": "Currency",
-        "count": 25000,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 314,
-    "name": "Brawling Obstacle: Flame Turrets",
-    "description": "Allow decorators in the arena to place turrets that apply burning to nearby combatants.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/BB4F9206FDF0FE4855B3220AB962FBB70B77CF6F/1228484.png",
-    "type": "Unlock",
-    "required_level": 32,
-    "experience": 35,
-    "prerequisites": [
-      379
-    ],
-    "costs": [
-      {
-        "type": "Collectible",
-        "count": 200,
-        "name": "Guild Favor",
-        "item_id": 70701
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Mithril Ingot",
-        "item_id": 19684
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Elder Wood Plank",
-        "item_id": 19709
-      },
-      {
-        "type": "Item",
-        "count": 300,
-        "name": "Vial of Linseed Oil",
-        "item_id": 73034
-      },
-      {
-        "type": "Item",
-        "count": 10,
-        "name": "Molten Lodestone",
-        "item_id": 24315
-      },
-      {
-        "type": "Item",
-        "count": 20,
-        "name": "Mystic Crystal",
-        "item_id": 20799
-      },
-      {
-        "type": "Currency",
-        "count": 2000,
-        "name": "Aetherium"
-      }
-    ]
-  },
-  {
-    "id": 315,
-    "name": "Lattice",
-    "description": "Purchased from the basic decoration vendor.",
-    "build_time": 0,
-    "icon": "https://render.guildwars2.com/file/C43436636FD1FC72551E06E3D65A2706355D4E4C/1225829.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": [
-      {
-        "type": "Item",
-        "count": 1,
-        "name": "Lattice",
-        "item_id": 76689
-      }
-    ]
-  },
-  {
-    "id": 316,
-    "name": "Festive Arch",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/712B2BC1090799CDBD6990EAC7CD97574FC9797E/1224081.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
-    "id": 317,
-    "name": "Griffon Statue",
-    "description": "Crafted by scribes.",
-    "build_time": 30,
-    "icon": "https://render.guildwars2.com/file/2A95C920C200EFB329E7EE9E3346AFB170487F0D/1227670.png",
-    "type": "Decoration",
-    "required_level": 0,
-    "experience": 0,
-    "prerequisites": [],
-    "costs": []
-  },
-  {
     "id": 318,
     "name": "Seance Candle",
     "description": "Crafted by scribes.",
@@ -710,10 +170,7 @@
     "type": "AccumulatingCurrency",
     "required_level": 31,
     "experience": 35,
-    "prerequisites": [
-      391,
-      398
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -1146,9 +603,7 @@
     "type": "Unlock",
     "required_level": 28,
     "experience": 35,
-    "prerequisites": [
-      162
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -1234,9 +689,7 @@
     "type": "Boost",
     "required_level": 37,
     "experience": 35,
-    "prerequisites": [
-      123
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -1394,9 +847,7 @@
     "type": "Unlock",
     "required_level": 40,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -1470,8 +921,7 @@
     "required_level": 39,
     "experience": 35,
     "prerequisites": [
-      416,
-      379
+      416
     ],
     "costs": [
       {
@@ -1710,8 +1160,7 @@
     "required_level": 18,
     "experience": 35,
     "prerequisites": [
-      308,
-      379
+      308
     ],
     "costs": [
       {
@@ -2182,9 +1631,7 @@
     "type": "Unlock",
     "required_level": 16,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -2867,9 +2314,7 @@
     "type": "Unlock",
     "required_level": 0,
     "experience": 100,
-    "prerequisites": [
-      240
-    ],
+    "prerequisites": [],
     "costs": []
   },
   {
@@ -3121,9 +2566,7 @@
     "type": "Unlock",
     "required_level": 39,
     "experience": 35,
-    "prerequisites": [
-      162
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -3265,9 +2708,7 @@
     "type": "Unlock",
     "required_level": 34,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -4356,9 +3797,7 @@
     "type": "Unlock",
     "required_level": 24,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -5247,9 +4686,7 @@
         "name": "Aetherium"
       }
     ]
-  }
-],
-[
+  },
   {
     "id": 491,
     "name": "Objective Aura 6: Toughness",
@@ -5595,8 +5032,7 @@
     "required_level": 28,
     "experience": 35,
     "prerequisites": [
-      342,
-      379
+      342
     ],
     "costs": [
       {
@@ -6067,9 +5503,7 @@
     "type": "Unlock",
     "required_level": 23,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -6205,9 +5639,7 @@
     "type": "Unlock",
     "required_level": 20,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -6410,7 +5842,9 @@
         "name": "Aetherium"
       }
     ]
-  },
+  }
+],
+[
   {
     "id": 537,
     "name": "Pillar Candle",
@@ -6638,9 +6072,7 @@
     "type": "Unlock",
     "required_level": 31,
     "experience": 35,
-    "prerequisites": [
-      467
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -6718,7 +6150,7 @@
   {
     "id": 556,
     "name": "Pumpkin",
-    "description": "Purchased from the basic decoration vendor. Only available during Halloween.",
+    "description": "",
     "build_time": 0,
     "icon": "https://render.guildwars2.com/file/D4070B5B2F2ABAD80DE2176EB541680B4D0CD41D/1226071.png",
     "type": "Decoration",
@@ -6743,9 +6175,7 @@
     "type": "Unlock",
     "required_level": 4,
     "experience": 35,
-    "prerequisites": [
-      288
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -7478,9 +6908,7 @@
     "type": "Unlock",
     "required_level": 39,
     "experience": 35,
-    "prerequisites": [
-      476
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -7558,10 +6986,7 @@
     "type": "Unlock",
     "required_level": 29,
     "experience": 35,
-    "prerequisites": [
-      466,
-      204
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -7880,9 +7305,7 @@
     "type": "Unlock",
     "required_level": 22,
     "experience": 35,
-    "prerequisites": [
-      379
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -8040,9 +7463,7 @@
     "type": "Unlock",
     "required_level": 18,
     "experience": 35,
-    "prerequisites": [
-      605
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -8187,9 +7608,7 @@
     "type": "Unlock",
     "required_level": 16,
     "experience": 35,
-    "prerequisites": [
-      605
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -8261,9 +7680,7 @@
     "type": "Unlock",
     "required_level": 17,
     "experience": 35,
-    "prerequisites": [
-      359
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -8717,12 +8134,7 @@
     "type": "Unlock",
     "required_level": 21,
     "experience": 35,
-    "prerequisites": [
-      509,
-      272,
-      466,
-      320
-    ],
+    "prerequisites": [],
     "costs": [
       {
         "type": "Collectible",
@@ -8968,7 +8380,7 @@
   {
     "id": 661,
     "name": "Snow Pile",
-    "description": "Purchased from the basic decoration vendor for Flawless Snowflakes. Only available during Wintersday.",
+    "description": "",
     "build_time": 0,
     "icon": "https://render.guildwars2.com/file/72041205A708503C52B02A39337DF6B350E2D70C/1322560.png",
     "type": "Decoration",
@@ -9291,7 +8703,7 @@
   {
     "id": 683,
     "name": "Red Lantern",
-    "description": "Purchased from the guild decoration trader for luck. Only available during Lunar New Year.",
+    "description": "",
     "build_time": 0,
     "icon": "https://render.guildwars2.com/file/9AD4327FD30354F1DC1F019B920CAE7B0C599F7B/1341430.png",
     "type": "Decoration",
@@ -9413,6 +8825,3829 @@
         "item_id": 77703
       }
     ]
+  },
+  {
+    "id": 691,
+    "name": "Gold Sabetha Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/2A68DAA574B1DF3A52E2D364075747309E556159/1341324.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 692,
+    "name": "Silver Vale Guardian Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/049B9373EF6B95D89A04225F3FD028D05357CA16/1341308.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 693,
+    "name": "Gold Slothasor Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0EB60C2E75510694E0E1396E31E97AA46E1AABAB/1377333.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 694,
+    "name": "Silver Mordremoth Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1901E4DFCA63B23CB877E77DA2E5AA02EAC51A6C/1341276.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 695,
+    "name": "Firecracker",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/BE50A2E1DFE9D00A086C0E3661A92C28E3AAFF36/1341429.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 696,
+    "name": "Bronze Shatterer Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/4DA2EE0D74DFE1B04D9B0A0B5ED2319CDD015733/1341355.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 697,
+    "name": "Silver White Mantle Abomination Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/4E67B712C5232C3D1FAD5C06502FB098B9253850/1377365.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 698,
+    "name": "Lunar Arch",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/AF4344AED6043E6EC96BBDE8024F56C738681E80/1341434.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 699,
+    "name": "Red Festival Tent",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/749CCA0927AF721E43E5EE705096EF95567C9267/1341432.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 700,
+    "name": "Bronze Gorseval Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0652A0E491CAB6742A08EAB11900B554D3B2D896/1341254.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 701,
+    "name": "Gold White Mantle Abomination Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/AEBEDB7536DE65E267F905EFAF4F3C46F00052DB/1377358.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 702,
+    "name": "Gold Mordremoth Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/06777B03BBA6DBBABFFCA40C56A108E8449510DF/1341270.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 703,
+    "name": "Master Brewer's Keg",
+    "description": "Earned by completing the Eldvin Monastery Brew of the Month Club achievement.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/661F2AC76A27B81C0029126D0C4ADDFEF56A2668/62167.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 704,
+    "name": "Silver Shatterer Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/F7439F67FF740B54FC382CF36956BA0F97180505/1341362.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 705,
+    "name": "Silver Sabetha Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1670AC3EF62C570F0E40650443B3CFBCCD4CD6BF/1341330.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 706,
+    "name": "Bronze Tequatl Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/4F5049271F5B6CB569707078DF2B3E5797D20826/1341368.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 707,
+    "name": "Bronze White Mantle Abomination Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/5B2C4A106D1B7C69FB5AD3C79F6A383772CC7252/1377357.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 708,
+    "name": "Bronze Mordremoth Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/763BB61B54AACCD24DA41BA4FA2AAA7533F809F1/1341269.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 709,
+    "name": "Ram Statue",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1959D56437C0CEA25880182716CE374A57390A02/1341431.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 710,
+    "name": "Gold Gorseval Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0B2000BE572ACDC30F1C4CBAFCE440092A9649AA/1341255.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 711,
+    "name": "Silver Gorseval Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0858D1280C65A99CD16760AD6ACE47FB0D3680C0/1341261.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 712,
+    "name": "Silver Chak Gerent Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/E945FE7848921B2D3DEF1E93127B10BD5A420EA4/1341396.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 713,
+    "name": "Gold Tequatl Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/5D1FF50E62DBC53634D1798052659BC69D37F316/1341369.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 714,
+    "name": "Mordremoth Mandible",
+    "description": "Purchased from the basic decoration vendor.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/5C6DBD24B759B307A1303308F912AB04730B5AA5/1341284.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Mordremoth Mandible",
+        "item_id": 77683
+      }
+    ]
+  },
+  {
+    "id": 715,
+    "name": "Season 2: Gold Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 2nd and 25th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E02B120D3B6B3DD311A32DE616A12DDDE93B9DE4/1313331.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 716,
+    "name": "Season 2: Bronze Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 101st and 250th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E2EFCF4D07A17201C9BC0E3964F19B93B70FD7B1/1313330.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 717,
+    "name": "Season 2: Platinum Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is 1st on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/405472159D3EA01A18E1C32D0404060635AD60F8/1313332.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 718,
+    "name": "Season 2: Silver Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 26th and 100th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4D4B77E31F5B392D6FBB53DEAA72EB59B7A5CD6E/1313333.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 719,
+    "name": "Super Pagoda Column",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/0E22409316D42867DB9BD6153263CE34DB4D0A78/1418360.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 720,
+    "name": "Super Tree",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/6BB3C2C21F554BE9AF2A16F17FCB35C0497941CF/1418363.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 721,
+    "name": "Super Cloud",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/D92DD6C5A40EF5042A98C54F78759FA5EE06B9FB/1418355.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Super Cloud",
+        "item_id": 78027
+      }
+    ]
+  },
+  {
+    "id": 722,
+    "name": "Painting of Moto",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/0F7917EC021FB0AD029FC302B5B02B52E9CDEEAE/1418359.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 723,
+    "name": "Super Rock Platform",
+    "description": "Crafted by scribes.",
+    "build_time": 64,
+    "icon": "https://render.guildwars2.com/file/A575440168FAF0F87649CACEFE0B39087A22C427/1418351.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 724,
+    "name": "Super Rock Wall",
+    "description": "Crafted by scribes.",
+    "build_time": 64,
+    "icon": "https://render.guildwars2.com/file/22C4283D0DD7E670D8A0D729091302E336F8F764/1418354.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 725,
+    "name": "Super Mountain",
+    "description": "Crafted by scribes.",
+    "build_time": 64,
+    "icon": "https://render.guildwars2.com/file/5793FE735F22FB563BC9F90C3FCBFC50062280BD/1418352.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 726,
+    "name": "Unimpressive King Frog",
+    "description": "Crafted by scribes.",
+    "build_time": 64,
+    "icon": "https://render.guildwars2.com/file/FAA1EFF7EE7BD236FAE2FFFA3A0E32067A2F08D0/1418358.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 727,
+    "name": "Super Rock",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/1F450A5B18DAD747CFC89304C0CB6211E96D94DA/1418361.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 728,
+    "name": "Super Small Rock",
+    "description": "Crafted by scribes.",
+    "build_time": 16,
+    "icon": "https://render.guildwars2.com/file/7C95DEEC771B76092904D046E97C9343EF0658C3/1418356.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 729,
+    "name": "Super King Frog",
+    "description": "Crafted by scribes.",
+    "build_time": 128,
+    "icon": "https://render.guildwars2.com/file/C8D1F8EDAB2D182DF62E0E7A40AE79D862287A29/1418357.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 730,
+    "name": "Super Rock Ramp",
+    "description": "Crafted by scribes.",
+    "build_time": 64,
+    "icon": "https://render.guildwars2.com/file/044D58306019CD5D456F1E3699E30DA0AC92E699/1418353.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 732,
+    "name": "Globe of Whispers",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/C3BA3A9130BC40E9E8B7A960F4193AF96C99E647/1424148.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 733,
+    "name": "Season 6: Platinum Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is 1st on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/405472159D3EA01A18E1C32D0404060635AD60F8/1313332.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 734,
+    "name": "Season 4: Gold Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 2nd and 25th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E02B120D3B6B3DD311A32DE616A12DDDE93B9DE4/1313331.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 735,
+    "name": "Season 3: Silver Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 26th and 100th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4D4B77E31F5B392D6FBB53DEAA72EB59B7A5CD6E/1313333.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 736,
+    "name": "Season 3: Gold Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 2nd and 25th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E02B120D3B6B3DD311A32DE616A12DDDE93B9DE4/1313331.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 737,
+    "name": "Season 3: Bronze Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 101st and 250th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E2EFCF4D07A17201C9BC0E3964F19B93B70FD7B1/1313330.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 738,
+    "name": "Season 6: Silver Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 26th and 100th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4D4B77E31F5B392D6FBB53DEAA72EB59B7A5CD6E/1313333.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 739,
+    "name": "Season 4: Platinum Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is 1st on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/405472159D3EA01A18E1C32D0404060635AD60F8/1313332.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 740,
+    "name": "Season 4: Bronze Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 101st and 250th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E2EFCF4D07A17201C9BC0E3964F19B93B70FD7B1/1313330.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 741,
+    "name": "Season 4: Silver Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 26th and 100th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4D4B77E31F5B392D6FBB53DEAA72EB59B7A5CD6E/1313333.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 742,
+    "name": "Season 5: Gold Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 2nd and 25th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E02B120D3B6B3DD311A32DE616A12DDDE93B9DE4/1313331.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 743,
+    "name": "Season 5: Silver Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 26th and 100th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4D4B77E31F5B392D6FBB53DEAA72EB59B7A5CD6E/1313333.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 744,
+    "name": "Season 6: Bronze Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 101st and 250th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E2EFCF4D07A17201C9BC0E3964F19B93B70FD7B1/1313330.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 745,
+    "name": "Season 6: Gold Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 2nd and 25th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E02B120D3B6B3DD311A32DE616A12DDDE93B9DE4/1313331.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 746,
+    "name": "Season 3: Platinum Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is 1st on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/405472159D3EA01A18E1C32D0404060635AD60F8/1313332.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 747,
+    "name": "Season 5: Bronze Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is between 101st and 250th on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/E2EFCF4D07A17201C9BC0E3964F19B93B70FD7B1/1313330.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 748,
+    "name": "Season 5: Platinum Guild Challenger Trophy",
+    "description": "Earned when the PvP season ends and your guild team's placement is 1st on the Guild Challenger League leaderboard.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/405472159D3EA01A18E1C32D0404060635AD60F8/1313332.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  }
+],
+[
+  {
+    "id": 749,
+    "name": "Bronze Xera Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/FB78DF4803500FF2B7AFB4C514B499F57059E805/1451141.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 750,
+    "name": "Bronze Keep Construct Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/D496083774D4AB40C042F967AD91064E2EB52330/1451118.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 751,
+    "name": "Gold Siege the Stronghold Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1D51E308962629469BBD4AAC0A4B4E3E11C96033/1451135.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 752,
+    "name": "Xera's Ribbon Scrap",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/B5D7BCF260E83B2310DEE01A6EF4EF3F41ADEFA5/1451139.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Ribbon Scrap",
+        "item_id": 78942
+      }
+    ]
+  },
+  {
+    "id": 753,
+    "name": "Silver Keep Construct Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/5E350719BA57563AA8FCB81371B8DC42C95F6FE3/1451120.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 754,
+    "name": "Gold Xera Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/B75942F9CD064BDE46600105342396642E3B7570/1451153.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 755,
+    "name": "Silver Siege the Stronghold Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/2A57F7104625620A1F164C56F8C0FAB0D8082AF2/1451136.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 756,
+    "name": "Guild Enhancement: World Reward Tracks",
+    "description": "Add a personal enhancement at the tavern that increases the rate of WvW reward-track gain.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0226BE9BC6925301FB53BDEE11A432760AE2187B/1451166.png",
+    "type": "Unlock",
+    "required_level": 7,
+    "experience": 35,
+    "prerequisites": [
+      288
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 150,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 80,
+        "name": "Saffron Stuffed Mushroom",
+        "item_id": 12476
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Bottle of Elonian Wine",
+        "item_id": 19663
+      },
+      {
+        "type": "Item",
+        "count": 20,
+        "name": "Potion of WvW Rewards",
+        "item_id": 78600
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Mystic Crystal",
+        "item_id": 20799
+      },
+      {
+        "type": "Item",
+        "count": 15,
+        "name": "Glass Mug",
+        "item_id": 71580
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Empty Keg",
+        "item_id": 72224
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Large Bone",
+        "item_id": 24341
+      },
+      {
+        "type": "Currency",
+        "count": 1000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 757,
+    "name": "Bloodstone Turret Fragment",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/780C63D598D79D37C2FC3928D5DC40567DABB0AC/1451137.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Turret Fragment",
+        "item_id": 78873
+      }
+    ]
+  },
+  {
+    "id": 758,
+    "name": "Gold Keep Construct Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/FE99CD0B42FD4ACC01F70F352870B7727D7321D1/1451119.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 759,
+    "name": "Keep Construct Rubble",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/6AD9295AF333352352C7B91260C646AD96F9C1A6/1451122.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Keep Construct Rubble",
+        "item_id": 78902
+      }
+    ]
+  },
+  {
+    "id": 760,
+    "name": "Bronze Siege the Stronghold Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/4AFF0354FD3D5FFA9E1353625E29E491ECEDAFA8/1451134.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 761,
+    "name": "Silver Xera Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/094AC72A9C0C4B362BA8A6599CE91F9391931C4B/1451154.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 762,
+    "name": "Basic Signpost",
+    "description": "A simple sign for directing passersby.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/64DC259F3307371260B975D60A2D69A609BA3D41/1466233.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Basic Signpost",
+        "item_id": 79110
+      }
+    ]
+  },
+  {
+    "id": 763,
+    "name": "Basic Commemorative Statue",
+    "description": "A simple commemoration of a momentous event.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0D17200C24050EAF9FAFBC44EAA45A3A5CED7102/1466237.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Basic Commemorative Statue",
+        "item_id": 79233
+      }
+    ]
+  },
+  {
+    "id": 764,
+    "name": "Basic Grave Marker",
+    "description": "A simple remembrance of a fallen comrade.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/ED1C5CFF6597C24254802FFA40E066F6403E02D4/1466229.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Basic Grave Marker",
+        "item_id": 79231
+      }
+    ]
+  },
+  {
+    "id": 765,
+    "name": "Guild Hall Monument Decorations",
+    "description": "Add special decorations that can be inscribed with custom messages to the basic decorations merchant's inventory.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/AA1FB928069D966B6B51260968404B405BED08CF/1466335.png",
+    "type": "Unlock",
+    "required_level": 23,
+    "experience": 35,
+    "prerequisites": [
+      445
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 500,
+        "name": "Memory of Battle",
+        "item_id": 71581
+      },
+      {
+        "type": "Item",
+        "count": 25,
+        "name": "Steel Chisel",
+        "item_id": 72129
+      },
+      {
+        "type": "Item",
+        "count": 25,
+        "name": "Steel Craftsman's Hammer",
+        "item_id": 73211
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Bottle of Elonian Wine",
+        "item_id": 19663
+      },
+      {
+        "type": "Currency",
+        "count": 3000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 766,
+    "name": "Large Crystal Block of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/1056F9F3D9246A712CC1F916B490F2AD3FE4EDEC/1494135.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Large Block of the Solid Ocean",
+        "item_id": 79538
+      }
+    ]
+  },
+  {
+    "id": 767,
+    "name": "Female Norn Holo-Dancer",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/16D60F31A4A5769B43B5D605580CA14809AABDE0/1494194.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Female Norn Holo-Dancer",
+        "item_id": 79788
+      }
+    ]
+  },
+  {
+    "id": 768,
+    "name": "Cloth Synthesizer 3",
+    "description": "Add linen scraps as a possible output from the workshop's cloth synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/2CAC6395DA73AC9A67246263ACB313753F209752/1494360.png",
+    "type": "Unlock",
+    "required_level": 25,
+    "experience": 35,
+    "prerequisites": [
+      770,
+      204
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 250,
+        "name": "Bolt of Linen",
+        "item_id": 19744
+      },
+      {
+        "type": "Item",
+        "count": 15,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 769,
+    "name": "Fragments of the Solid Ocean",
+    "description": "Purchased from the basic decoration vendor.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/C32A555A08C5DBAA095520A6FA4ECD6C3645DE9B/1494140.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Fragments of the Solid Ocean",
+        "item_id": 79489
+      }
+    ]
+  },
+  {
+    "id": 770,
+    "name": "Cloth Synthesizer 2",
+    "description": "Add cotton scraps as a possible output from the workshop's cloth synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/D87857069453052AE10F1863B96856B1A4BB9F02/1494359.png",
+    "type": "Unlock",
+    "required_level": 17,
+    "experience": 35,
+    "prerequisites": [
+      778
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 250,
+        "name": "Bolt of Cotton",
+        "item_id": 19742
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 771,
+    "name": "Wave of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/069F4EDDFFAFFA24AFCF6A91C8C309CC1CDE6643/1494145.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Wave of the Solid Ocean",
+        "item_id": 79546
+      }
+    ]
+  },
+  {
+    "id": 772,
+    "name": "Male Norn Holo-Dancer",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0FDB010C1AFDE29430EAE17C4E511A0CF515389E/1494192.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Male Norn Holo-Dancer",
+        "item_id": 79867
+      }
+    ]
+  },
+  {
+    "id": 773,
+    "name": "Leather Synthesizer 4",
+    "description": "Add thick leather as a possible output from the workshop's leather synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/541AC953E972093BB6BD119D6FA32A664834B894/1494366.png",
+    "type": "Unlock",
+    "required_level": 31,
+    "experience": 35,
+    "prerequisites": [
+      779
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 500,
+        "name": "Cured Thick Leather Square",
+        "item_id": 19735
+      },
+      {
+        "type": "Item",
+        "count": 25,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 774,
+    "name": "Cloth Synthesizer 5",
+    "description": "Add gossamer scraps as a possible output from the workshop's cloth synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/28FCA72C71EE05730E444598BB9726B003F5C740/1494362.png",
+    "type": "Unlock",
+    "required_level": 37,
+    "experience": 35,
+    "prerequisites": [
+      785
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Bolt of Gossamer",
+        "item_id": 19746
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 775,
+    "name": "Leather Synthesizer 1",
+    "description": "Add a leather node to the workshop that randomly generates either rawhide or thin leather when harvested.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/1042689D0DDB68C3FA2866252DE3979F57FD283E/1494363.png",
+    "type": "Unlock",
+    "required_level": 7,
+    "experience": 35,
+    "prerequisites": [
+      380
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 250,
+        "name": "Stretched Rawhide Leather Square",
+        "item_id": 19738
+      },
+      {
+        "type": "Item",
+        "count": 250,
+        "name": "Cured Thin Leather Square",
+        "item_id": 19733
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 1000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 776,
+    "name": "Chunk of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/227724E753602D2435F968304F54EB4E6DA919F8/1494139.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Chunk of the Solid Ocean",
+        "item_id": 79909
+      }
+    ]
+  },
+  {
+    "id": 777,
+    "name": "Spire of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/BB03D1BD17DEC657BF60B7771D00182C1215B926/1494141.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Spire of the Solid Ocean",
+        "item_id": 79491
+      }
+    ]
+  },
+  {
+    "id": 778,
+    "name": "Cloth Synthesizer 1",
+    "description": "Add a cloth node to the workshop that randomly generates either jute or wool scraps when harvested.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0C1845310BC1979AD63F9602C218240274B75334/1494358.png",
+    "type": "Unlock",
+    "required_level": 7,
+    "experience": 35,
+    "prerequisites": [
+      380
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 200,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 250,
+        "name": "Bolt of Jute",
+        "item_id": 19720
+      },
+      {
+        "type": "Item",
+        "count": 250,
+        "name": "Bolt of Wool",
+        "item_id": 19740
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 1000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 779,
+    "name": "Leather Synthesizer 3",
+    "description": "Add rugged leather as a possible output from the workshop's leather synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/06EB9571712FCF5AFA07E30C9574B8D833A61EE8/1494365.png",
+    "type": "Unlock",
+    "required_level": 25,
+    "experience": 35,
+    "prerequisites": [
+      782,
+      204
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 250,
+        "name": "Cured Rugged Leather Square",
+        "item_id": 19736
+      },
+      {
+        "type": "Item",
+        "count": 15,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 780,
+    "name": "Large Block of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/A9DEC7C17DF3D00DD5669299091CC31433A36C59/1494134.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Large Block of the Solid Ocean",
+        "item_id": 79538
+      }
+    ]
+  },
+  {
+    "id": 781,
+    "name": "Leather Synthesizer 5",
+    "description": "Add hardened leather as a possible output from the workshop's leather synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0A071B10E01D0F91765D163445A8B779ABB1FE04/1494367.png",
+    "type": "Unlock",
+    "required_level": 37,
+    "experience": 35,
+    "prerequisites": [
+      773
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Cured Hardened Leather Square",
+        "item_id": 19737
+      },
+      {
+        "type": "Item",
+        "count": 10,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 782,
+    "name": "Leather Synthesizer 2",
+    "description": "Add coarse leather as a possible output from the workshop's leather synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/EC244431357A93ED68179702BB15CEDD0F07E6B8/1494364.png",
+    "type": "Unlock",
+    "required_level": 17,
+    "experience": 35,
+    "prerequisites": [
+      775
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 250,
+        "name": "Cured Coarse Leather Square",
+        "item_id": 19734
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 783,
+    "name": "Large Wave of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/ADF9F198D89DE60BCC0AEB263574F366BF725650/1494142.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Large Wave of the Solid Ocean",
+        "item_id": 79521
+      }
+    ]
+  },
+  {
+    "id": 784,
+    "name": "Large Female Norn Holo-Dancer",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/16D60F31A4A5769B43B5D605580CA14809AABDE0/1494194.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Large Female Norn Holo-Dancer",
+        "item_id": 79557
+      }
+    ]
+  },
+  {
+    "id": 785,
+    "name": "Cloth Synthesizer 4",
+    "description": "Add silk scraps as a possible output from the workshop's cloth synthesizer.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/EC68F7482D1F0E01AA5C336AB9100409A7694964/1494361.png",
+    "type": "Unlock",
+    "required_level": 31,
+    "experience": 35,
+    "prerequisites": [
+      768
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 500,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 500,
+        "name": "Bolt of Silk",
+        "item_id": 19747
+      },
+      {
+        "type": "Item",
+        "count": 25,
+        "name": "Glob of Ectoplasm",
+        "item_id": 19721
+      },
+      {
+        "type": "Item",
+        "count": 200,
+        "name": "Pile of Incandescent Dust",
+        "item_id": 24276
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Empyreal Star",
+        "item_id": 46734
+      },
+      {
+        "type": "Currency",
+        "count": 5000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 786,
+    "name": "Block of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4C666C2AF2039F5B4B219EBCAE0A99184B40CB46/1494130.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Block of the Solid Ocean",
+        "item_id": 79851
+      }
+    ]
+  },
+  {
+    "id": 787,
+    "name": "Slab of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/02C41E350AFAF4E767633CD0E2436D4DA5349DE5/1494138.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Slab of the Solid Ocean",
+        "item_id": 79594
+      }
+    ]
+  },
+  {
+    "id": 788,
+    "name": "Crystal Block of the Solid Ocean",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0B6A0D2259140871907EA9E851FF1708DEF06DE4/1494133.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Crystal Block of the Solid Ocean",
+        "item_id": 79740
+      }
+    ]
+  },
+  {
+    "id": 789,
+    "name": "Large Male Norn Holo-Dancer",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0FDB010C1AFDE29430EAE17C4E511A0CF515389E/1494192.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Large Male Norn Holo-Dancer",
+        "item_id": 79575
+      }
+    ]
+  },
+  {
+    "id": 790,
+    "name": "Mad Moon",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/9D3F0DE8DA0F01592695F55756350B7AA6F7A4F2/1508183.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 791,
+    "name": "Eternal Flame",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/E90B0F6765334941C0FB0AB992F83C03B40C60DC/1508168.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 792,
+    "name": "Demon Statue",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/A20A2C1FE80AC95FBDEAF64E78943CDD5C132099/1508156.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 793,
+    "name": "Mausoleum",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/EE3926E0E02C0962A5D3D15DFED8EC0240690D0D/1508187.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 794,
+    "name": "Hanging Tree",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/779F07B3B062D056E2A70A2F971ACD9E34F97F54/1508162.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 795,
+    "name": "Large Hemisphere of Snow",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/31B41421C5C97ABDEEAEC09CC10851652C57B478/1614393.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 796,
+    "name": "Cuboid of Snow",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/05056548196CBC7EDD122F7404032CD028066216/1614394.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 797,
+    "name": "Large Wedge of Snow",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/D12E21C8775E49DA1F391FAC2705A9B6F713E9D7/1614395.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 798,
+    "name": "Cube of Snow",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/FF93936CA0AE58466D065A95CB04FB2CBC9DFAA8/1614392.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 799,
+    "name": "Snowman Ice Sculpture",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/080D0D6694717DDC710EB7F86D94699F3C35340D/1614396.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 800,
+    "name": "Large Cuboid of Snow",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/05056548196CBC7EDD122F7404032CD028066216/1614394.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 801,
+    "name": "Large Cube of Snow",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/FF93936CA0AE58466D065A95CB04FB2CBC9DFAA8/1614392.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 802,
+    "name": "Hemisphere of Snow",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/31B41421C5C97ABDEEAEC09CC10851652C57B478/1614393.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 803,
+    "name": "Wedge of Snow",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/D12E21C8775E49DA1F391FAC2705A9B6F713E9D7/1614395.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 804,
+    "name": "Rooster Statue",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/61C70395BB775BFD3100BB9AD63E082E7F02036C/1624012.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 805,
+    "name": "Impaled Prisoner",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4E40223E650CE2485C0E3F146863AEC7F7E3B923/1634889.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Impaled Prisoner Token",
+        "item_id": 80087
+      }
+    ]
+  },
+  {
+    "id": 806,
+    "name": "Fragment of Saul's Burden",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/BB7AC0B2FB23067DBC09C3A36B80B94FD2092ACE/1634875.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Fragment of Saul's Burden",
+        "item_id": 80542
+      }
+    ]
+  },
+  {
+    "id": 807,
+    "name": "Silver Mursaat Overseer Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/CE6B8003CAC3203E5E4563D005AFC294E2ECB4B0/1634833.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 808,
+    "name": "Streets of Divinity's Reach",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/5A43F573C6B29ED4982605FF593554AF37953BEF/1634128.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Streets of Divinity's Reach",
+        "item_id": 80796
+      }
+    ]
+  },
+  {
+    "id": 809,
+    "name": "Fancy Urn",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/61D40ED09FBBCDA2B474F10A68A06FDF02A50C68/1634121.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Fancy Urn",
+        "item_id": 80766
+      }
+    ]
+  },
+  {
+    "id": 810,
+    "name": "Plush Rug",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/F9B213913F0A43F59E109406EB3AD6AEB1DF96F1/1634123.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Plush Rug",
+        "item_id": 80688
+      }
+    ]
+  },
+  {
+    "id": 811,
+    "name": "Silver Samarog Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/9311EA3370B772DAB10FDDDE3715FBE8B33DB594/1634881.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 812,
+    "name": "Cairn the Indomitable Shard",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/D7AC43DAD263F2BDF8ED4CF26EA7463FA134FDE8/1634864.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Cairn Fragment",
+        "item_id": 80623
+      }
+    ]
+  },
+  {
+    "id": 813,
+    "name": "Rec Room Floor Tile",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/247830B00D4190345D0556CD9E0BBE1BDB629BFB/1634830.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Recreation Room Floor Fragment",
+        "item_id": 80269
+      }
+    ]
+  },
+  {
+    "id": 814,
+    "name": "The Heart of the Priory",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/AF0C03F403C12B050801A1CDEA99AD0DAE42071C/1634126.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "The Heart of the Priory",
+        "item_id": 80843
+      }
+    ]
+  },
+  {
+    "id": 815,
+    "name": "Mounted Dolyak Head",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/7769390ED71E9EC1F4CA48C6A5B46FB7070678A3/1634125.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Mounted Dolyak Head",
+        "item_id": 80785
+      }
+    ]
+  },
+  {
+    "id": 816,
+    "name": "Lynx Statue",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/ADB896B8DE0C465868029313FD9DC94701E8D206/1634124.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Lynx Statue",
+        "item_id": 80693
+      }
+    ]
+  },
+  {
+    "id": 817,
+    "name": "A Day in Kryta",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/5A43F573C6B29ED4982605FF593554AF37953BEF/1634128.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "A Day in Kryta",
+        "item_id": 80684
+      }
+    ]
+  },
+  {
+    "id": 818,
+    "name": "Bronze Cairn the Indomitable Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/B0F65779FF5FB368D63A2C3E0D17ABDC424648B0/1634853.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 819,
+    "name": "Chandelier",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/3F73CE046A675EDF3C0F80C612F1C740C16B15B3/1634119.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Chandelier",
+        "item_id": 80712
+      }
+    ]
+  },
+  {
+    "id": 820,
+    "name": "Bronze Mursaat Overseer Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/3F2C0098F99560B5BD3D4A22B69022AC3C31B81F/1634831.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 822,
+    "name": "Gold Mursaat Overseer Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/3A1B63E513D9ADC465F16CDFEAA9A0DCC8F11296/1634832.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 823,
+    "name": "Silver Deimos Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/5633E3E14FECE51CEB3C775DF7D57AB1ADF89679/1634874.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 824,
+    "name": "Gold Deimos Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/32BC1D6ED909FD1E977020F068970E4BCD6469FF/1634873.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 825,
+    "name": "Silver Cairn the Indomitable Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/BDE1C33FDEE895CA28E43C735BAB94A8E5541494/1634860.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 826,
+    "name": "Bronze Samarog Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/CEECEF3EE5296E16A15E459F9B6D34D172622DC7/1634879.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 827,
+    "name": "Portrait of Logan Thackeray",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/397C5E29CF7B2C0EAC934FBB049365A5E82B36D8/1634122.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Portrait of Logan Thackeray",
+        "item_id": 80708
+      }
+    ]
+  },
+  {
+    "id": 828,
+    "name": "Gold Cairn the Indomitable Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/CE4AA024C72EA11A7D7D4C592456D7AD7414CC00/1634854.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 829,
+    "name": "Bronze Deimos Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/EEE4E76C9D0BC69A906B7B216ADC18D33314E702/1634872.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 830,
+    "name": "Beetletun Statue Fragments",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/4243473F3277FDF029C2BC7BC714042B26096402/1634117.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Beetletun Statue Fragments",
+        "item_id": 80696
+      }
+    ]
+  },
+  {
+    "id": 831,
+    "name": "Portrait of Caudecus",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/A00908060C033D19ABBB227104C720167DD70D96/1634118.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Portrait of Caudecus",
+        "item_id": 80829
+      }
+    ]
+  },
+  {
+    "id": 832,
+    "name": "Gold Samarog Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/68977C25156EF272DD6B042C9EF203D92A91D042/1634880.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 833,
+    "name": "Super Flower",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/20C1A2F4ACA2D8AFA4F0F0CDEF38F205FEBBAB60/1663869.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 836,
+    "name": "Super Mushroom",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/337490C1FCF52AE23C2CDC0C4DA3EBC3DB3D10FA/1663868.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 837,
+    "name": "Super Forest House",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/94F6EBE936B699FF9BE1D0CC9F1B2C28A0090204/1663870.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 839,
+    "name": "Super Campfire",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/C7157B599E214F132A21EC11D4434E0EBB1D03A4/1663866.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 840,
+    "name": "Guild Hall Music: Super Adventure Box",
+    "description": "Visit the minstrel at the tavern to change the background music of your guild hall to a selection of themes based on Moto's Super Adventure Box.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/96E17707772DCB56487E9EE5D84C1C3E034D7A6B/1202618.png",
+    "type": "Unlock",
+    "required_level": 8,
+    "experience": 35,
+    "prerequisites": [
+      253,
+      424
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 128,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "World 1 Super Boom Box",
+        "item_id": 46500
+      },
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "World 2 Super Boom Box",
+        "item_id": 46504
+      },
+      {
+        "type": "Item",
+        "count": 500,
+        "name": "Continue Coin",
+        "item_id": 41824
+      },
+      {
+        "type": "Currency",
+        "count": 256,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 841,
+    "name": "Super Guild Anthem",
+    "description": "Add a minstrel at the tavern who can set an anthem for your guild, which will play at moments of triumph.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/2DA85BD6CEE6F25FE841BD0BF94AE9FC03AD5F72/1228548.png",
+    "type": "Unlock",
+    "required_level": 19,
+    "experience": 35,
+    "prerequisites": [
+      238,
+      424
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 128,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "World 1 Super Boom Box",
+        "item_id": 46500
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Continue Coin",
+        "item_id": 41824
+      },
+      {
+        "type": "Currency",
+        "count": 256,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 843,
+    "name": "Super Pine Tree",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/01949112073926F2A2EE1D700C9A7303430674C2/1663871.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 846,
+    "name": "Oakheart's Essence",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/A11AA6A29590F803F037FF9A20D22597E86651CB/1676608.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Oakheart's Essence",
+        "item_id": 81000
+      }
+    ]
+  },
+  {
+    "id": 847,
+    "name": "Superior Flame Ram Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/EAC3031176039E17B4740BA9FC03E0E7D10F55E4/1701373.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 848,
+    "name": "Superior Golem Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/1A07D3BFA1080D3F2975FBA33B1554D836320F0B/1701382.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 849,
+    "name": "Arrow Cart Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0BF670D20AF4B9EBB428B5DFFC7EA49F01C53C13/1701374.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 850,
+    "name": "Guild Shield Generator Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/537B67BAEF0D1DFABAF61C4EF60D1B266F741763/1701385.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 851,
+    "name": "WvW Mortar Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/B3679BFBC9BD0EF7A66E343732010291FA02F1BD/1701383.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 852,
+    "name": "Ballista Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/D90AC60063EB33C34AE3C59E3496C5ACE75E1733/1701369.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 853,
+    "name": "Superior Arrow Cart Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0830C0BF58EFA3625B91E2246C212EE61502A40C/1701376.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 854,
+    "name": "Guild Ballista Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/D90AC60063EB33C34AE3C59E3496C5ACE75E1733/1701369.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 855,
+    "name": "Superior Ballista Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/070E0DB7C1BFCD742B386F0802C47D799E4AFCF3/1701371.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 856,
+    "name": "Golem Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/CB7378D5C960BF01CAA364241F5A7978C6707376/1701381.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 857,
+    "name": "Guild Catapult Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/D002621C023C32479913214BC65CDB6D20ED681F/1701379.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 858,
+    "name": "Flame Ram Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/0CBC04052702A991C40C986E4FDEDF03685CA8F4/1701372.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 859,
+    "name": "Superior Catapult Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/706A2644ECB89E4030C59F2DB44FFD7E80B6B5C1/1701380.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 860,
+    "name": "Guild Trebuchet Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/07FDF08004C82F78B874DB9D52B5B5A412F002E4/1701388.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 861,
+    "name": "Shield Generator Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/07EC272A6363A84A0D01CB4FC80A3AC979AEDA9E/1701384.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 862,
+    "name": "Superior Trebuchet Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/F438AA29E47913D79BDDD89B7ABEE8559841A7B6/1701389.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 863,
+    "name": "Cannon Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/DA0BBA713D76C60EA4A406C5533ADE26D6B4F70D/1701377.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 864,
+    "name": "Trebuchet Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/10C17BFB4092FBA7BE0801B953CC30DD630E0CC6/1701387.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 865,
+    "name": "Superior Shield Generator Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/ED5B23F2CA0A5719562980F7B52CDF507F0C285C/1701386.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 866,
+    "name": "Catapult Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/C0D57D1F7409665A13064405566EFB25DBD44C0A/1701378.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 867,
+    "name": "Guild Arrow Cart Siege",
+    "description": "Earned by participating in skirmishes.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/F7F9C5F33EC4994018FD2CBCF25D912F53FF03C7/1701375.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": []
+  },
+  {
+    "id": 868,
+    "name": "Awakened Tar Drip",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/7CB30DE31F65A8D26D2D7F47A70E63C1B7D86CE8/1769596.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 869,
+    "name": "Elonian Teapot",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/A9387B18CFFA01F9475B0A161173794E61010F01/1769524.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 870,
+    "name": "Branded Crystal",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/CCF30749D8789B27A7D16BF7CC7FE09499BA6B42/1769366.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 871,
+    "name": "Expedition to Windswept Haven",
+    "description": "Travel to the Windswept Haven entrance tunnel, located northwest of Garden of Seborhin in Vabbi. Meet Hashim and drive the Mordant Crescent out to claim this guild hall.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/035C224F2154C7FC5F54F0C3016929EBA8B301EA/1770180.png",
+    "type": "GuildHallExpedition",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      240
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 150,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Coins",
+        "count": 1000000
+      }
+    ]
+  },
+  {
+    "id": 872,
+    "name": "Branded Spire",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/B80558A191F7D0E3340D9B0EDD6A3038320145AD/1769378.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 873,
+    "name": "Elonian Wood Table",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/5059DE30C75E22D9E70C51BB27F766FC012BBDDF/1769520.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 875,
+    "name": "Elonian Gong",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/444403E5737964FDECCC749258204D0FF65D1567/1769618.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 876,
+    "name": "Tall Elonian Column",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/6DF6C5807CCC0EA70C1F040D271C2D9B49D0E2BE/1769432.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 877,
+    "name": "Elonian Urn",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/3169B1E56AEA04039BD61FC99D9ADA00A2BEAC35/1769534.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 878,
+    "name": "Forged Brazier",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/E6982050F294453593F8473A92AE99784CD0F0B1/1769558.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 879,
+    "name": "Elonian Stone Tower",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/4906BB3DD5C37AFBAB55A99E640F2FC6EEF2C6D1/1769586.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 880,
+    "name": "Weathered Elonian Column",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/D36E995E05E0250A5BFD006AFB9BE74A70BEB40E/1769476.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 882,
+    "name": "Elonian Hawk Statue",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/689ABA45482ACB14D548F90BD827C9D224D8B52A/1769452.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 885,
+    "name": "Spiral Elonian Windmill",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/C2EEA0BF05D53F6622AEF40527627645FD26BF08/1769550.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 886,
+    "name": "Elonian Railing",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0EE90235730E091FD107B3BCDE3F0FAEB87240A1/1769582.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 887,
+    "name": "Elonian Tent",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/6FC83DA36F960926010858772CD060079CBD9E22/1769530.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 888,
+    "name": "Weathered Elonian Obelisk",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/60B37668D51FDCC0984D0DC5F3FB0E0B2CD8C3DF/1769468.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 889,
+    "name": "Elonian Snake Statue",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/D6C236FD5EBB2378AF53BB297094E7EDB9200C55/1769516.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 890,
+    "name": "Weathered Elonian Arch",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/AFBC4E3EBDB5E3BFBFD8F50BCB69BA5A012F670B/1769460.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 891,
+    "name": "Elonian Wood Chair",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0F0F210516D9713EA94B63041D113305374AFDC8/1769418.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 892,
+    "name": "Awakened Bone Column",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/FE6DBA786BA770379C9C40AF953AD2094E0973AB/1769398.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 894,
+    "name": "Awakened Bone Wall",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/3B3CFEC00AEAA45B0C55F80718177CA87EC8B62F/1769406.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 896,
+    "name": "Signal Lantern",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/712B1E6495B47C632A9D9CE40ECA5E2104139F9E/1769506.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 897,
+    "name": "Short Elonian Column",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/ACFA0415A979C7D7239778A82404DFAB4E05A64D/1769440.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 898,
+    "name": "Elonian Cairn Stones",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/9BA23354B65C53AD3B700FF27E1ADAB2F1FF107D/1769414.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 899,
+    "name": "Elonian Incense Stand",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1BC5A5C002B905F4F674D451AD201BAB017D986F/1769542.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 900,
+    "name": "Forged Fire Wall",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/6EF06210BBE6635EBEF6EB3278D091E190FEC4AF/1769570.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 901,
+    "name": "Windswept Haven",
+    "description": "Your guild has claimed Windswept Haven and is holding it against recapture by the Mordant Crescent.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/10C0719A56E93D0CA0B95EB24E7E933108957646/1770179.png",
+    "type": "GuildHall",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 902,
+    "name": "Forged Pylon",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/DA4857395276AEADFCB499C901469E486AEE0529/1769566.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 903,
+    "name": "Elonian Lattice",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/330F0D57D52898BEC43268DD707FC0F0979938B6/1769576.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 904,
+    "name": "Round Elonian Windmill",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/963E6A9EDB0BE626A4A977CB015404DA3AEC0A69/1769554.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 905,
+    "name": "Awakened Tar Pit",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/F77E9EB92172D401C9F49EACD57D49571CF1A052/1769608.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 906,
+    "name": "Elonian Vase",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/594154E4779CD3FAE39A68A7B503EF5FB253C0BB/1769386.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 908,
+    "name": "Ghostly Dining Table",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1F3237FF6C5E0E580AFC3C5ED5FDD617780C3762/1862052.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 909,
+    "name": "Spooky Dining Chair",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/64A7C0CA646AC96554E5D21FE37905D190D8DACA/1862050.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 910,
+    "name": "Spooky Dining Table",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/422B48289E0449327934A1D90020B1B8A75BE855/1862053.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 911,
+    "name": "Ghostly Dining Chair",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/BBD812F4A45BD4389334B70A48D3B367D35B49E3/1862049.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 912,
+    "name": "Haunted Armchair",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/E6CF42B3792A90370C763541697103900277386C/1862048.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 913,
+    "name": "Haunted Loveseat",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/32E51219EB91014932FAACDC800C9F450D0F2727/1862051.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 914,
+    "name": "Bronze Statue of Grenth Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0D9D2947CC1BFFE4A04457A618C197FD337A9DCE/1894797.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 915,
+    "name": "Gold Dhuum Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/1A7B57C36A110438DF253F4BAE234103E61D05D9/1894794.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 917,
+    "name": "Dhuum's Token",
+    "description": "Purchased from the basic decoration vendor.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/2BB54BA422D3F3DA542A932BDB37A4AB17A6A6F3/1894796.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Dhuum's Token",
+        "item_id": 85633
+      }
+    ]
+  },
+  {
+    "id": 919,
+    "name": "Desmina's Token",
+    "description": "Purchased from the basic decoration vendor.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/080EE3097B4457B406AD057367BEDBB79B1AD1D7/1894792.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Desmina's Token",
+        "item_id": 85993
+      }
+    ]
+  },
+  {
+    "id": 922,
+    "name": "Bronze River of Souls Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/E4CBCD387E37C09129F3CE5EB8F767CA13FA7757/1894801.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 923,
+    "name": "Silver Statue of Grenth Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/BE1651A4BBDAD1E3FE6CC1986A26029FBDE3AE39/1894799.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 924,
+    "name": "Fractal Console",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/6D3BD76905DD13B4090AE8033709D54C471991C4/1894960.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Fractal Console",
+        "item_id": 86366
+      }
+    ]
+  },
+  {
+    "id": 926,
+    "name": "Gold River of Souls Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/7A09C927BAE414012DB44E0B7FFBE59EAF4AB130/1894802.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 932,
+    "name": "Silver Dhuum Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/A205709544FD17969C3E09D1F8531D121E12F5B5/1894795.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 934,
+    "name": "Silver River of Souls Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/5276C15002466D2B7D48094396D3117762E12E6C/1894803.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 935,
+    "name": "Statue of Grenth Token",
+    "description": "Purchased from the basic decoration vendor.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/D60F0721EC3AD122A2D4A47B68D50F355CE49303/1894800.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Statue Token",
+        "item_id": 85800
+      }
+    ]
+  },
+  {
+    "id": 938,
+    "name": "Gold Statue of Grenth Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/15BABCE0A0BB75AE54380738FAB40B41797E14C5/1894798.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 939,
+    "name": "Gold Desmina Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/04030D7E9FA5F9D03F9BCF4AC4523890B19763D4/1894790.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 940,
+    "name": "Silver Desmina Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/730BE99F31313CC1AACD040907082C090CB11B50/1894791.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 941,
+    "name": "Bronze Dhuum Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/05B9A2411EA216D6FC5E08042F25740C913F5606/1894793.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 942,
+    "name": "Bronze Desmina Trophy",
+    "description": "",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/7DC94FD724CDC4F3C1C52631558057DF444520D3/1894789.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 944,
+    "name": "River of Souls Token",
+    "description": "Purchased from the basic decoration vendor.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/53A9A17A23C1E29C1714773B0FDF1C41294FE50D/1894804.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [
+      407
+    ],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "River of Souls Token",
+        "item_id": 85785
+      }
+    ]
+  },
+  {
+    "id": 946,
+    "name": "Green Wintersday Gift",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/ECF44A00616ACB4A9AB879915667E236440128DB/1914838.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 947,
+    "name": "Antler Pattern Snowflake Platform",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/70FF7ADC58B74C0F611E18CC0536057B0EBA6480/1914850.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 948,
+    "name": "Gingerbread-Man Ice Sculpture",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/E5D3779CC39C4438265B2C4AF7E29F102A62A737/1914826.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 949,
+    "name": "Fog Machine",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/AF532D0B6C01D1652BC6102159509871329A6BBF/1914837.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 950,
+    "name": "Snow Mound",
+    "description": "",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/D40EBE25332778333AED4B994C68B8E1CA359EF7/1914852.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Item",
+        "count": 1,
+        "name": "Snow Mound",
+        "item_id": 86521
+      }
+    ]
+  },
+  {
+    "id": 951,
+    "name": "Arrow Pattern Snowflake Platform",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/5E0E11CF1BABF1B2A5BA5F91645C26307B760543/1914851.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 952,
+    "name": "Blue Wintersday Gift",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/65F74E2B069D15FAF79CC4261A2734EBEF98719E/1914836.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 954,
+    "name": "White Wintersday Gift",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/990D2D72FEA7331BA5FDF50AE10BCCE4CE4AC66A/1914839.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 955,
+    "name": "Tray of Eggnog",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/0C18B95BCC5B0F01A43D0A6EE5ACEBB790ACFB5C/1914823.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 956,
+    "name": "Dog Statue",
+    "description": "Crafted by scribes.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/963AFA3D31FB3135CD4DD502ACE731A662C96342/1938767.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 957,
+    "name": "Super Angry Cloud",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/2B0D7D75FAE94D147064DA3E09A13C33592EB2D1/1964627.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 958,
+    "name": "Super Large Rock",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/A0D73B7A235E7A9B7861072C09F3A87E69150040/1964626.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 959,
+    "name": "Super Chest",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/F83D731EF26B57DA181A1DC8AD4500BB15ABAA19/1964624.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 960,
+    "name": "Super Beech Tree",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/79B521C6EC609E3FB722DF924BBFBD0934C2C0A7/1964628.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
+  },
+  {
+    "id": 961,
+    "name": "Super Happy Cloud",
+    "description": "Crafted by scribes.",
+    "build_time": 32,
+    "icon": "https://render.guildwars2.com/file/31580EC7ED4E65D0FFF03C04E25217F92E110CA5/1964625.png",
+    "type": "Decoration",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": []
   }
 ]
 ]
